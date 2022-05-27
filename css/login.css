@@ -39,6 +39,10 @@
 .login{
     display:flex;
 }
+.long_a{
+    text-decoration: none;
+    color:#1F1728;
+}
 .logo a{
     text-decoration: none;
     display: flex;
