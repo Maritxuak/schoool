@@ -65,7 +65,7 @@ body{
 }
 .NFT{
     padding: 0 24px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     width: 65px;
     color: #1F1728; 
     font-weight: 600;
@@ -234,9 +234,10 @@ body{
 }
 .span_number,.span_value,.span_value_little{
     display: block;
+    font-family: 'Open Sans', sans-serif;
 }
 .span_number{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
