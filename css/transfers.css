@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*==================HEADER===================*/
+.logo__text{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size:21px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.long_a{
+    text-decoration: none;
+    color:#1F1728;
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.header{
+    margin: 0 auto;
+    width: 100%;
+    max-height: 74px;
+}
+.container__inner{
+    display:flex;
+    justify-content: space-between;
+    max-height: 74px;
+    height: 100%;
+}
+.login{
+    display:flex;
+}
+.logo a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NFT{
+    padding: 0 24px;
+    font-family: 'Open Sans', sans-serif;
+    width: 65px;
+    color: #1F1728; 
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NFT1{
+    margin-left: 140px;
+    margin-right: 90px;
+    text-align: center;
+}
+.header{
+    user-select: none;
+    background-color: #FFFFFF;
+    
+}
+/*=======================VALLUTE====================*/
+.vallute{
+    position: relative;
+    padding: 0px 30px;
+    padding-right: 25px;
+}
+.vallute:hover .vallute__list__wrapper{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%,0);
+}
+.vallute__a{
+    text-decoration: none;
+    position: relative;
+}
+.vallute__a::after{
+    position: absolute;
+    content: '';
+    left: 100%;
+    top: calc(58% + 4px);
+    transform: translateY(-130%);
+    border:4px solid transparent;
+    border-top-color: #000;
+}
+.vallute__list__wrapper{
+    position: absolute;
+    top:100%;
+    left:50%;
+    transform:translate(-50%,15px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease;
+}
+.vallute__list{
+    box-shadow: 0 0 4px #000;
+}
+.vallute__list a{
+    display:block;
+    padding:5px 10px;
+    color: #000;
+    text-decoration: none;
+}
+/*=====================LOGIN================*/
+.login{
+    padding: 10px;
+    align-items: center;
+}
+.Long{
+    padding: 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 20px;
+    text-decoration: none;
+    color:#1F1728;
+}
+.Sing{
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.sing_a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.Sing__Inner{
+    background-color: #8442D6;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color:#FFFFFF;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.moon{
+    padding: 5px;
+}
+/*================== Footer ===================*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+.footer{
+    width: 100%;
+    max-width: 1240px;
+    padding-top: 100px;
+}
+ul{
+    list-style: none;
+}
+.footer_upper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer_section h4{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #8442D6;
+    margin-bottom: 15px;
+}
+.footer_section ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer_section ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #AAAAAA;
+}
+.second_h{
+    margin-top: 10px;
+}
+.footer_lower{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer_lower:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #8D8D8D;
+    height: 1px;
+    width: 100%;
+}
+.footer_subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8D8D8D;
+    padding: 20px 0;
+}
