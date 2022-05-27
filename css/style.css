@@ -17,7 +17,6 @@ body{
 .maincontainer{
     flex-direction: column;
     align-items: center;
-    max-width: 1240px;
     width: 100%;
     margin: 50px auto auto;
     flex: 1 1 auto;
@@ -176,6 +175,8 @@ body{
     position: relative;
     height: 720px;
     width: 100%;
+    max-width: 1240px;
+    margin: 50px auto auto;
 }
 .first_section_top{
     min-height: 595px;
