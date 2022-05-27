@@ -1,0 +1,94 @@
+/*==================HEADER===================*/
+.logo__text{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size:21px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.long_a{
+    text-decoration: none;
+    color:#1F1728;
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.header{
+    margin: 0 auto;
+    width: 100%;
+    max-height: 74px;
+}
+.container__inner{
+    display:flex;
+    justify-content: space-between;
+    max-height: 74px;
+    height: 100%;
+}
+.login{
+    display:flex;
+}
+.logo a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NFT{
+    padding: 0 24px;
+    font-family: 'Open Sans', sans-serif;
+    width: 65px;
+    color: #1F1728; 
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NFT1{
+    margin-left: 140px;
+    margin-right: 90px;
+    text-align: center;
+}
+.header{
+    user-select: none;
+    background-color: #FFFFFF;
+    
+}
+/*==============TEXT==================*/
+.textick{
+    background-color: #FFFFFF;
+    position: relative;
+    -webkit-box-shadow: 0px 5px 12px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 12px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 12px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 50px 210px 50px;
+}
+.back{
+    background-color: #EDEDED;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+.inner{
+    max-width: 1240px;
+    width: 100%;
+    margin:auto;
+}
+.PRIVACY{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
