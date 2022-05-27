@@ -1,8 +1,3 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 /*==================HEADER===================*/
 .logo__text{
     text-decoration: none;
@@ -66,89 +61,36 @@
     background-color: #FFFFFF;
     
 }
-/*=======================VALLUTE====================*/
-.vallute{
+/*==============TEXT==================*/
+.textick{
+    background-color: #FFFFFF;
     position: relative;
-    padding: 0px 30px;
-    padding-right: 25px;
-}
-.vallute:hover .vallute__list__wrapper{
-    opacity: 1;
-    visibility: visible;
-    transform: translate(-50%,0);
-}
-.vallute__a{
-    text-decoration: none;
-    position: relative;
-}
-.vallute__a::after{
-    position: absolute;
-    content: '';
-    left: 100%;
-    top: calc(58% + 4px);
-    transform: translateY(-130%);
-    border:4px solid transparent;
-    border-top-color: #000;
-}
-.vallute__list__wrapper{
-    position: absolute;
-    top:100%;
-    left:50%;
-    transform:translate(-50%,15px);
-    opacity: 0;
-    visibility: hidden;
-    transition: all .2s ease;
-}
-.vallute__list{
-    box-shadow: 0 0 4px #000;
-}
-.vallute__list a{
-    display:block;
-    padding:5px 10px;
-    color: #000;
-    text-decoration: none;
-}
-/*=====================LOGIN================*/
-.login{
-    padding: 10px;
-    align-items: center;
-}
-.Long{
-    padding: 0px 10px;
+    -webkit-box-shadow: 0px 5px 12px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 12px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 12px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    padding: 50px 50px 210px 50px;
+}
+.back{
+    background-color: #EDEDED;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+.inner{
+    max-width: 1240px;
+    width: 100%;
+    margin:auto;
+}
+.PRIVACY{
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    margin: 0 20px;
-    text-decoration: none;
-    color:#1F1728;
-}
-.Sing{
-    font-weight: 700;
-    font-size: 14px;
-    border-radius: 30px;
+    font-size: 22px;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    text-decoration: none;
-    border-radius: 4px;
-}
-.sing_a{
-    text-decoration: none;
-    color:#FFFFFF;
-}
-.Sing__Inner{
-    background-color: #8442D6;
-    border-radius: 5px;
-    padding: 10px 15px;
-    color:#FFFFFF;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    text-decoration: none;
-    border-radius: 4px;
-}
-.moon{
-    padding: 5px;
 }
 /*================== Footer ===================*/
 footer{
