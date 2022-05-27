@@ -274,6 +274,12 @@ body{
     text-transform: uppercase;
     color: #b90000;
 }
+/*================== Crypto ===================*/
+.crypto{
+    background: #FFFFFF;
+    border-radius: 48px 48px 0px 0px;
+    height: 100px;
+}
 /*================== Footer ===================*/
 footer{
     display: flex;
