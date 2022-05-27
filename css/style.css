@@ -208,6 +208,9 @@ body{
     opacity: 60%;
     color: #333333;
 }
+.first_section_top_subtitle p{
+    font-family: 'Open Sans', sans-serif;
+}
 .first_section_top_buttom{
     display: flex;
     flex-direction: row;
@@ -267,7 +270,7 @@ body{
     color: #26CA8C;
 }
 .span_percent_negative{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -389,6 +392,7 @@ body{
     letter-spacing: 3px;
     padding: 10px 0 ;
     cursor: pointer;
+    user-select: none;
 }
 .positive_number{
     color: #26CA8C;
@@ -429,6 +433,12 @@ body{
     color: #ffffff;
 }
 .slide_second{
+    margin-top: 40px;
+}
+.slide_third{
+    margin-top: 40px;
+}
+.slide_fourth{
     margin-top: 40px;
 }
 /*================== Footer ===================*/

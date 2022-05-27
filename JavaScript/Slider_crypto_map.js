@@ -23,28 +23,28 @@ slide_second.onclick = function(){
     slide_first.classList.remove('active')
     slide_third.classList.remove('active')
     slide_fourth.classList.remove('active')
-    s1.style.transform = 'translateY(-110%)';
-    s2.style.transform = 'translateY(-110%)';
-    s3.style.transform = 'translateY(-110%)';
-    s4.style.transform = 'translateY(-110%)';
+    s1.style.transform = 'translateY(-106%)';
+    s2.style.transform = 'translateY(-106%)';
+    s3.style.transform = 'translateY(-106%)';
+    s4.style.transform = 'translateY(-106%)';
 }
 slide_third.onclick = function(){
     slide_third.classList.add('active')
     slide_first.classList.remove('active')
     slide_second.classList.remove('active')
     slide_fourth.classList.remove('active')
-    s1.style.transform = 'translateY(-211%)';
-    s2.style.transform = 'translateY(-211%)';
-    s3.style.transform = 'translateY(-211%)';
-    s4.style.transform = 'translateY(-211%)';
+    s1.style.transform = 'translateY(-213%)';
+    s2.style.transform = 'translateY(-213%)';
+    s3.style.transform = 'translateY(-213%)';
+    s4.style.transform = 'translateY(-213%)';
 }
 slide_fourth.onclick = function(){
     slide_fourth.classList.add('active')
     slide_first.classList.remove('active')
     slide_second.classList.remove('active')
     slide_third.classList.remove('active')
-    s1.style.transform = 'translateY(-311%)';
-    s2.style.transform = 'translateY(-311%)';
-    s3.style.transform = 'translateY(-311%)';
-    s4.style.transform = 'translateY(-311%)';
+    s1.style.transform = 'translateY(-322%)';
+    s2.style.transform = 'translateY(-322%)';
+    s3.style.transform = 'translateY(-322%)';
+    s4.style.transform = 'translateY(-322%)';
 }
