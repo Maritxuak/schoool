@@ -65,7 +65,7 @@ body{
 }
 .NFT{
     padding: 0 24px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     width: 65px;
     color: #1F1728; 
     font-weight: 600;
@@ -234,9 +234,10 @@ body{
 }
 .span_number,.span_value,.span_value_little{
     display: block;
+    font-family: 'Open Sans', sans-serif;
 }
 .span_number{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -247,7 +248,7 @@ body{
 .span_value{
     width: 82px;
     height: 22px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -256,7 +257,7 @@ body{
     color: #1F1728;
 }
 .span_percent_positive{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -272,6 +273,12 @@ body{
     line-height: 100%;
     text-transform: uppercase;
     color: #b90000;
+}
+/*================== Crypto ===================*/
+.crypto{
+    background: #FFFFFF;
+    border-radius: 48px 48px 0px 0px;
+    height: 100px;
 }
 /*================== Footer ===================*/
 footer{
