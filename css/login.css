@@ -223,6 +223,22 @@ input[type="checkbox"]:checked + .label::before{
     right: 15px;
     bottom:32%;
 }
+.sign_a{
+    text-decoration: none;
+    color:#8442D6;
+    margin-top: 30px;
+}
+.container_signin{
+    text-align: center;
+    padding-bottom: 142px;
+}
+.container_signin_item{
+        margin-top: 30px;
+}
+.ab1{
+    margin-top:30px;
+    margin-bottom: 20px;
+}
 /*================== Footer ===================*/
 footer{
     display: flex;
