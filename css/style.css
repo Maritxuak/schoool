@@ -220,7 +220,7 @@ body{
     background: #8442D6;
     border-radius: 4px;
     margin-top: 40px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -264,7 +264,7 @@ body{
     font-size: 22px;
     line-height: 100%;
     text-transform: uppercase;
-    color: #008015;
+    color: #26CA8C;
 }
 .span_percent_negative{
     font-family: 'Open Sans';
@@ -300,6 +300,7 @@ body{
     margin-bottom: 80px;
 }
 .crypto_map{
+    overflow: hidden;
     display:inline-block;
     width: 100%;
     height: 600px;
@@ -322,12 +323,12 @@ body{
     text-align: center;
 }
 .crypto_map_market{
-    width: 10%;
+    width: 15%;
     display: inline-block;
     text-align: center;
 }
 .crypto_map_coin{
-    width: 10%;
+    width: 15%;
     display: inline-block;
     text-align: center;
 }
@@ -337,27 +338,96 @@ body{
     text-align: center;
 }
 .crypto_map_allday{
-    width: 20%;
+    width: 15%;
     display: inline-block;
     text-align: center;
 }
 .crypto_map_chart{
-    width: 25%;
+    width: 20%;
     display: inline-block;
     text-align: center;
 }
 .crypto_map_starttrade{
-    width: auto;
+    width: 8%;
     display: inline-block;
     text-align: center;
 }
 .crypto_map_text{
+    position: relative;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
     color: #1F1728;
+}
+.crypto_img{
+    position: absolute;
+    left: 15%;
+    top: -30%;
+}
+.crypto_map_img{
+    position: absolute;
+    left: 29%;
+    top: 35%;
+}
+.crypto_map_main{
+    width: 100%;
+    height: 100%;
+}
+.btm_trade{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #F39D35;
+    border-radius: 2px;
+    letter-spacing: 3px;
+    padding: 10px 0 ;
+    cursor: pointer;
+}
+.positive_number{
+    color: #26CA8C;
+}
+.negative_number{
+    color: #EA3943;
+}
+.crypto_map_slider{
+    width: 15%;
+    margin: 30px auto;
+}
+.crypto_map_number_slider{
+    position: relative;
+    display: inline-flex;
+    padding: 4px 10px;
+}
+.start::after{
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 25%;
+    background: url(/object/IMG/arrow-left.svg);
+    width: 5px;
+    height: 10px;
+}
+.end::after{
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 25%;
+    background: url(/object/IMG/arrow-right.svg);
+    width: 7px;
+    height: 10px;
+}
+.active{
+    background: #8442D6;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.slide_second{
+    margin-top: 40px;
 }
 /*================== Footer ===================*/
 footer{
