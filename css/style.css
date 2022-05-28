@@ -283,6 +283,7 @@ body{
     display: block;
     background: #FFFFFF;
     border-radius: 48px 48px 0px 0px;
+    user-select: none;
 }
 /*================== Corrent Market ===================*/
 .corrent_market{
