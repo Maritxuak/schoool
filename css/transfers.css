@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 /*==================HEADER===================*/
 .logo__text{
     text-decoration: none;
