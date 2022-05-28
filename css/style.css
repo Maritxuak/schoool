@@ -448,7 +448,72 @@ body{
     margin-top: 40px;
 }
 /*================== Steps ===================*/
-
+.steps{
+    display: block;
+    width: 100%;
+    max-width: 1240px;
+    margin: 50px auto auto;
+    text-align: center;
+}
+.four_steps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.first_step,.second_step,.third_step,.fourth_step{
+    position: relative;
+    width: 285px;
+    height: 254px;
+    text-align: left;
+}
+.steps_title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    color: #1F1728;
+    margin-top: 20px;
+}
+.steps_text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #64687D;
+    margin-top: 15px;
+}
+.btm_steps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 190px;
+    height: 42px;
+    gap: 10px;
+    left: 0;
+    bottom: 0;
+    background: #8442D6;
+    border-radius: 4px;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btm_steps_text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+}
 /*================== Footer ===================*/
 footer{
     display: flex;
