@@ -23,16 +23,15 @@
                 <div class="login">
                     <div><a href="page/login.html" class="Long">Log in</a></div>
                     <div class="Sing"><a href="page/register.html" class="Sing__Inner">Sing Up</a></div>
-                    <div class="vallute">
-                        <a href="#" class="vallute__a"><img src="object/IMG/usd.svg"></a>
-                        <div class="vallute__list__wrapper">
-                            <div class="vallute__list">
-                                  <a href="#"><img src="object/IMG/btc.svg"></a>
-                                  <a href="#"><img src="object/IMG/inr.svg"></a>
-                                  <a href="#"><img src="object/IMG/eth.svg"></a>
-                            </div>
-                        </div>
-                    </div>
+                    <form action="formdata" method="post" name="form1">
+                        <p><select name="list1">
+                         <option class="opt_list1"><img src="object/IMG/usd.svg"></option>
+                         <option><img src="object/IMG/inr.svg"></option>
+                         <option><img src="object/IMG/btc.svg"></option>
+                         <option><img src="object/IMG/eth.svg"></option>
+                        </select></p>
+                       </form>
+                       
                     <div class="moon2">
                     <img src="object/IMG/crescent moon.svg">
                     
@@ -51,9 +50,9 @@
                     <div class="first_section_top_subtitle">
                         <p>Buy, Sell & Trade Bitcoin, Ethereum, Ripple, Litecoin and more cryptocurrencies. Start trading now!</p>
                     </div>
-                    <div class="first_section_top_buttom">
-                        Register now
-                    </div>
+
+                        <a href="/page/register.html" class="first_section_top_buttom">Register now</a>
+
                 </div>
                 <div class="first_section_top_figures">
                     <div class="figure_triangle_large"></div>
