@@ -178,6 +178,10 @@ body{
     max-width: 1240px;
     margin: 50px auto auto;
 }
+.fist_a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
 .first_section_top{
     min-height: 595px;
     display: flex;
@@ -229,6 +233,7 @@ body{
     font-size: 20px;
     line-height: 27px;
     color: #ffffff;
+    text-decoration: none;
 }
 .first_section_down{
     display: flex;
