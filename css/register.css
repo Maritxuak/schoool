@@ -68,6 +68,15 @@
     background-color: #FFFFFF;
     
 }
+/*======================DARKMODE==============*/
+body{
+    color:#1F1728;
+    background-color: white;
+}
+.dark-mode {
+    color: white;
+    background: #1F1728;
+}
 /*=====================LOGIN================*/
 
 .moon{
