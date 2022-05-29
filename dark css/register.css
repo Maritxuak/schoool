@@ -5,6 +5,7 @@
 }
 body{
     background-color: #000000;
+    transition: 1s;
 }
 /*==================HEADER===================*/
 .logo__text{
