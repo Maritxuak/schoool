@@ -524,6 +524,40 @@ body{
     margin-bottom: 70px;
     margin-top: -50px;
 }
+/*================== Services ===================*/
+.services{
+    display: block;
+    width: 100%;
+    max-width: 1240px;
+    margin: 50px auto auto;
+    text-align: center;
+}
+.services_table_large{
+    width: 100%;
+}
+.services_table_upper{
+    display: flex;
+}
+.services_table_lower{
+    display: flex;
+}
+.services_section_trade,.services_section_voting,.services_section_vip,.services_section_cashback,.services_section_referralprogram,.services_section_datapotection{
+    display: flex;
+    width: 33%;
+    height: 110px;
+}
+.services_section_trade_left{
+    margin-right: 8px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #EEEEEE;
+}
 /*================== Footer ===================*/
 footer{
     display: flex;
