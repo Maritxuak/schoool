@@ -454,11 +454,12 @@ body{
     max-width: 1240px;
     margin: 50px auto auto;
     text-align: center;
+    margin-bottom: 130px;
 }
 .four_steps{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .first_step,.second_step,.third_step,.fourth_step{
     position: relative;
@@ -513,6 +514,15 @@ body{
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 1.5px;
+}
+.step_globle_title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 70px;
+    margin-top: -50px;
 }
 /*================== Footer ===================*/
 footer{
