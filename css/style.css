@@ -37,6 +37,10 @@ body{
     text-decoration: none;
     color:#1F1728;
 }
+.Long:hover{
+    color: #F39D35;
+    transition: 0.1s;
+}
 .container{
     width: 100%;
     max-width: 1240px;
@@ -414,6 +418,7 @@ body{
     position: relative;
     display: inline-flex;
     padding: 4px 10px;
+    cursor: pointer;
 }
 .start::after{
     content: '';
@@ -479,7 +484,7 @@ body{
 .steps_text{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 130%;
     color: #64687D;
@@ -496,6 +501,7 @@ body{
     gap: 10px;
     left: 0;
     bottom: 0;
+    cursor: pointer;
     background: #8442D6;
     border-radius: 4px;
     margin-top: 40px;
@@ -570,6 +576,7 @@ body{
     background: #8442D6;
     border-radius: 4px;
     margin-top: 40px;
+    cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -616,10 +623,30 @@ body{
     text-align: center;
 }
 .interface_alltext{
-    width: 60%;
+    width: 53%;
+    text-align: left;
 }
 .interface_picture{
     width: 40%;
+    user-select: none;
+}
+.interface_alltext_title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    color: #1F1728;
+}
+.interface_text_subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #333333;
+    margin-top: 40px;
 }
 input.switch[type="checkbox"]{
     position: relative;
@@ -652,6 +679,32 @@ input.switch:checked[type="checkbox"]::before{
 .interface_picture_only{
     position: absolute;
     right: 0;
+}
+.night_mode_btm,.minimalistic{
+    display: flex;
+    align-items: center;
+}
+.minimalistic{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.night_mode_btm{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.minimalistic_text,.night_mode_text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1F1728;
+}
+.night_mode_text{
+    margin-right: 35px;
+}
+.minimalistic_img,.night_mode_btm_img{
+    margin-right: 20px;
 }
 /*================== Footer ===================*/
 footer{
