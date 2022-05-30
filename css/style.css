@@ -706,6 +706,18 @@ input.switch:checked[type="checkbox"]::before{
 .minimalistic_img,.night_mode_btm_img{
     margin-right: 20px;
 }
+/*==================logotype===================*/
+.logotype2{
+    display: flex;
+}
+.logotype1{
+    display: flex;
+}
+.logotype{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
 /*================== Footer ===================*/
 footer{
     display: flex;
