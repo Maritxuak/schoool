@@ -515,7 +515,7 @@ body{
     line-height: 22px;
     letter-spacing: 1.5px;
 }
-.step_globle_title{
+.step_globle_title,.services_globle_title{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -531,12 +531,14 @@ body{
     max-width: 1240px;
     margin: 50px auto auto;
     text-align: center;
+    margin-top: 200px;
 }
 .services_table_large{
     width: 100%;
 }
 .services_table_upper{
     display: flex;
+    margin-bottom: 50px;
 }
 .services_table_lower{
     display: flex;
@@ -546,9 +548,6 @@ body{
     width: 33%;
     height: 110px;
 }
-.services_section_trade_left{
-    margin-right: 8px;
-}
 .circle{
     display: flex;
     justify-content: center;
@@ -557,6 +556,102 @@ body{
     width: 70px;
     border-radius: 50%;
     background: #EEEEEE;
+    margin-right: 15px;
+}
+.register_now_btm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 290px;
+    height: 53px;
+    gap: 10px;
+    background: #8442D6;
+    border-radius: 4px;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.services_section_trade_right_title,.services_section_voting_right_title,.services_section_vip_right_title,.services_section_cashback_right_title,.services_section_referralprogram_right_title,.services_section_datapotection_right_title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    color: #1F1728;
+    text-align: left;
+    padding-bottom: 5px;
+}
+.services_section_trade_right_subtitle,.services_section_voting_right_subtitle,.services_section_vip_right_subtitle,.services_section_cashback_right_subtitle,.services_section_referralprogram_right_subtitle,.services_section_datapotection_right_subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #64687D;
+    text-align: left;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+/*================== Interface ===================*/
+.interface{
+    height: 950px;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+}
+.interface_wrapper{
+    height: 950px;
+    display: flex;
+    width: 100%;
+    max-width: 1240px;
+    margin: 50px auto auto;
+    text-align: center;
+}
+.interface_alltext{
+    width: 60%;
+}
+.interface_picture{
+    width: 40%;
+}
+input.switch[type="checkbox"]{
+    position: relative;
+    width: 30px;
+    height: 18px;
+    appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 60px;
+    transform: 0.5s;
+}
+input.switch:checked[type="checkbox"]{
+    background-color: #8442D6;
+}
+input.switch[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: #8442D6;
+    transition: 0.5s;
+}
+input.switch:checked[type="checkbox"]::before{
+    left: 15px;
+    background: #fff;
+}
+.interface_picture_only{
+    position: absolute;
+    right: 0;
 }
 /*================== Footer ===================*/
 footer{
