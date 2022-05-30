@@ -707,7 +707,7 @@ input.switch:checked[type="checkbox"]::before{
 .minimalistic_img,.night_mode_btm_img{
     margin-right: 20px;
 }
-<<<<<<< HEAD
+
 /*==================logotype===================*/
 .logotype2{
     display: flex;
@@ -720,7 +720,6 @@ input.switch:checked[type="checkbox"]::before{
     justify-content: center;
     align-items: center;
 }
-=======
 /*================== Slider information ===================*/
 .slider_fact{
     position: relative;
