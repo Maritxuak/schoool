@@ -1,4 +1,8 @@
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 /*==================HEADER===================*/
 .logo__text{
     text-decoration: none;
@@ -65,6 +69,7 @@
     background-color: #FFFFFF;
     
 }
+
 /*====================1======================*/
 .h1, .text, .text2{
     display: flex;
@@ -82,16 +87,20 @@
 .h1{
     font-style: normal;
     font-weight: 600;
-
+    padding-top: 80px;
+    padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
 }
 .resend{
     color:#8442D6;
+    margin-left: 5px;
+    
 }
 .osn{
     height: 711px;
     background-color: #EFEFEF;
 }
+
 /*================== Footer ===================*/
 footer{
     display: flex;
