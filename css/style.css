@@ -731,7 +731,7 @@ input.switch:checked[type="checkbox"]::before{
     display: flex;
     width: 100%;
     max-width: 1240px;
-    margin: 50px auto auto;
+    margin: -100px auto auto;
     justify-content: center;
     align-items: center;
 }
@@ -828,7 +828,9 @@ input.switch:checked[type="checkbox"]::before{
     text-align: center;
     color: #8442D6;
     text-decoration: none;
+    margin-top: 5px;
 }
+..slider_fact_link::after
 .slider_fact_first{
     display: flex;
     flex-direction: column;
