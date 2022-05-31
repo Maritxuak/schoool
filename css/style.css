@@ -744,6 +744,7 @@ input.switch:checked[type="checkbox"]::before{
     height: 345px;
     border-radius: 8px;
     z-index: 3;
+    overflow: hidden;
 }
 .slider_fact_medium{
     position: absolute;
@@ -774,9 +775,6 @@ input.switch:checked[type="checkbox"]::before{
     width: 100%;
     height: 100%;
     border-radius: 8px;
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 .number_fact{
     margin-right: 20px;
@@ -784,13 +782,13 @@ input.switch:checked[type="checkbox"]::before{
     flex-direction: column;
 }
 .navigation{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .navigation_top{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .navigation_down{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .number_fact_number{
     height: 50%;
@@ -823,6 +821,7 @@ input.switch:checked[type="checkbox"]::before{
     color: #191023;
 }
 .slider_fact_link{
+    position: relative;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -831,25 +830,111 @@ input.switch:checked[type="checkbox"]::before{
     text-align: center;
     color: #8442D6;
     text-decoration: none;
-    margin-top: 5px;
+    margin-top: 20px;
 }
-..slider_fact_link::after
+.slider_fact_link:after{
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    top: 26%;
+    right: -12px;
+    background: url(/object/IMG/arrow_right_bluy.svg);
+}
+.slider_fact_picture{
+    margin-bottom: 15px;
+}
+.slider_fact_title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    color: #191023;
+    margin-bottom: 15px;
+}
+
 .slider_fact_first{
     display: flex;
     flex-direction: column;
     z-index: 10;
 }
 .slider_fact_second{
+    display: flex;
+    flex-direction: column;
     z-index: 9;
 }
 .slider_fact_third{
+    display: flex;
+    flex-direction: column;
     z-index: 8;
 }
 .slider_fact_fourth{
+    display: flex;
+    flex-direction: column;
     z-index: 7;
 }
 .slider_fact_fifth{
+    display: flex;
+    flex-direction: column;
     z-index: 6;
+}
+/*================== Start trade ===================*/
+.start_trade{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1240px;
+    margin: 50px auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.start_trade_btms_title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    color: #1F1728;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+.start_trade_btm_first{
+    width: 260px;
+    height: 50px;
+    background: #8442D6;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 70px;
+    margin-right: 25px;
+    user-select: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.start_trade_btm_second{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #8442D6;
+    text-decoration: none;
+    border: 3px solid #8442D6;
+    border-radius: 4px;
+    padding: 10px 70px;
+    margin-left: 25px;
+    user-select: none;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 /*================== Footer ===================*/
 footer{
