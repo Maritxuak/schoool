@@ -716,9 +716,12 @@ input.switch:checked[type="checkbox"]::before{
     display: flex;
 }
 .logotype{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 149px;
+    padding-bottom: 190px;
 }
 /*================== Slider information ===================*/
 .slider_fact{
