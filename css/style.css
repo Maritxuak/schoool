@@ -723,6 +723,9 @@ input.switch:checked[type="checkbox"]::before{
     padding-top: 149px;
     padding-bottom: 190px;
 }
+.log_imgg{
+    margin: 50px;
+}
 /*================== Slider information ===================*/
 .slider_fact{
     position: relative;
