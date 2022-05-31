@@ -843,7 +843,6 @@ input.switch:checked[type="checkbox"]::before{
 .slider_fact_fifth{
     z-index: 6;
 }
->>>>>>> 7f2906154d73945e2b9928102bfe931db169ea6c
 /*================== Footer ===================*/
 footer{
     display: flex;
