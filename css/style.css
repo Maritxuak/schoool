@@ -608,7 +608,6 @@ body{
 }
 /*================== Interface ===================*/
 .interface{
-    height: 950px;
     width: 100%;
     text-align: center;
     margin-top: 200px;
@@ -616,12 +615,14 @@ body{
     margin-bottom: -100px;
 }
 .interface_wrapper{
-    height: 950px;
     display: flex;
     width: 100%;
     max-width: 1240px;
     margin: 50px auto auto;
     text-align: center;
+}
+.interface_picture_onl{
+       visibility: hidden;
 }
 .interface_alltext{
     width: 53%;
@@ -710,31 +711,58 @@ input.switch:checked[type="checkbox"]::before{
 
 /*==================logotype===================*/
 .logotype2{
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
     display: flex;
+    align-items: center;
 }
 .logotype1{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    padding-bottom: 66px;
 }
 .logotype{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding-top: 149px;
     padding-bottom: 190px;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
 }
-.log_imgg{
-    margin: 50px;
+.imgg1{
+    max-width: 290px;
+    max-height: 50px;
+    width: 25%;
+}
+.imgg2{
+    max-width: 150px;
+    max-height: 40px;
+    width: 25%;
+}
+.imgg3{
+    max-width: 226px;
+    max-height: 60px;
+    width: 25%;
+}
+.imgg4{
+    max-width: 270px;
+    max-height: 33px;
+    width: 25%;
 }
 /*================== Slider information ===================*/
 .slider_fact{
     position: relative;
 }
 .slider_information{
+    margin: 480px auto 0;
     display: flex;
     width: 100%;
     max-width: 1240px;
-    margin: -100px auto auto;
     justify-content: center;
     align-items: center;
 }

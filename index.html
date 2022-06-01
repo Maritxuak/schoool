@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Kripta</title>
+    <link rel="stylesheet" href="Adap_CSS/adap_index.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,6 +41,7 @@
             </div>
         </div>
     </header>
+    
     <div class="maincontainer">
         <div class="first_section">
             <div class="first_section_top">
@@ -64,31 +66,40 @@
                 </div>
             </div>
             <div class="first_section_down">
-                <div class="little_type">
-                    <span class="span_number">Shib/usd <span class="span_percent_negative">0%</span></span>
-                    <span class="span_value">-</span>
-                    <span class="span_value_little">0</span>
-                </div>
-                <div class="little_type">
-                    <span class="span_number">matic/Usd <span class="span_percent_negative">-6.48%</span></span>
-                    <span class="span_value">1,571</span>
-                    <span class="span_value_little">$1,57</span>
-                </div>
-                <div class="little_type">
-                    <span class="span_number">ada/usd <span class="span_percent_positive">+5.27%</span></span>
-                    <span class="span_value">1,052</span>
-                    <span class="span_value_little">$1,05</span>
-                </div>
-                <div class="little_type">
-                    <span class="span_number">sol/usd <span class="span_percent_positive">+16.88%</span></span>
-                    <span class="span_value">106,55</span>
-                    <span class="span_value_little">$106,55</span>
-                </div>
-                <div class="little_type">
-                    <span class="span_number">eth/usd <span class="span_percent_negative">-9.58%</span></span>
-                    <span class="span_value">2682,99</span>
-                    <span class="span_value_little">$2679,41</span>
-                </div>
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+                    {
+                    "symbols": [
+                      {
+                        "description": "SHIB/USD",
+                        "proName": "COINBASE:SHIBUSD"
+                      },
+                      {
+                        "description": "MATIC/USD",
+                        "proName": "COINBASE:MATICUSD"
+                      },
+                      {
+                        "description": "ADA/USD",
+                        "proName": "COINBASE:ADAUSD"
+                      },
+                      {
+                        "description": "SOL/USD",
+                        "proName": "COINBASE:SOLUSD"
+                      },
+                      {
+                        "description": "ETH/USD",
+                        "proName": "COINBASE:ETHUSD"
+                      }
+                    ],
+                    "colorTheme": "dark",
+                    "isTransparent": true,
+                    "showSymbolLogo": true,
+                    "largeChartUrl": "https://arbitrtraf.ru",
+                    "locale": "ru"
+                  }
+                    </script>
+                  </div>
             </div>
         </div>
         <div class="crypto">
@@ -1536,6 +1547,9 @@
                     <div class="interface_picture">
                         <img class="interface_picture_only" src="/object/IMG/trade_easily_img.png" alt="">
                     </div>
+                    <div class="interface_pictur">
+                        <img class="interface_picture_onl" src="object/IMG/tradePageWithSecondGridType-b8ae7209eac7f266cd41289da70123f6 2.svg" alt="">
+                    </div>
                 </div>
             </div>
             <div class="slider_information">
@@ -1603,10 +1617,10 @@
             </div>
             <div class="logotype">
                 <div class="logotype1">
-                    <img class="log_imgg" src="object/IMG/in/coinmarketcap.svg">
-                    <img class="log_imgg" src="object/IMG/in/ledger.svg">
-                    <img class="log_imgg" src="object/IMG/in/etana custody.svg">
-                    <img class="log_imgg" src="object/IMG/in/cryptocompare.svg">
+                    <img class="log_imgg img1 imgg1" src="object/IMG/in/coinmarketcap.svg">
+                    <img class="log_imgg img1 imgg2" src="object/IMG/in/ledger.svg">
+                    <img class="log_imgg img1 imgg3" src="object/IMG/in/etana custody.svg">
+                    <img class="log_imgg img1" src="object/IMG/in/cryptocompare.svg">
                 </div>
                 <div class="logotype2">
                     <img class="log_imgg" src="object/IMG/in/Group.svg">
