@@ -23,7 +23,6 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 50px auto auto;
     flex: 1 1 auto;
 }
 
@@ -124,15 +123,15 @@ body {
 
 .back {
     background-color: #EDEDED;
-    top: 0;
-    left: 0;
-    overflow: auto;
+    height: 100%;
+    overflow: 0;
 }
 
 .inner {
     max-width: 1400px;
+    width: 100%;
     margin: auto;
-    height: 93vh;
+    height: 100%;
 }
 
 .PRIVACY {
@@ -431,7 +430,7 @@ body {
     margin: auto;
     background-color: #fff;
     height: 80%;
-    border-radius: 4px;
+    border-radius: 0 4px;
 }
 
 .section_lower_top {
@@ -447,9 +446,7 @@ body {
     padding: 0;
     border-bottom: 1px solid #cccc;
     text-align: center;
-
 }
-
 .coin,
 .assets,
 .balance,
@@ -505,11 +502,12 @@ body {
 }
 .section_lower_bottom{
     margin-top: 5px;
+    height: 100%;
 }
 .section_lower_bottom_item{
     width: 100%;
     display: flex;
-    height: 55px;
+    height: 9%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -519,6 +517,22 @@ body {
     color: #8D8D8D;
     padding: 0;
     text-align: center;
+    transition: all .5s;
+}
+.section_lower_bottom_item.activation{
+    width: 100%;
+    display: flex;
+    height: 37%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    color: #8D8D8D;
+    padding: 0;
+    text-align: center;
+    transition: all .5s;
 }
 .coin_item,.assets_item,.balance_item,.locked_item,.total_item,.value_item,.action_item{
     display: flex;
