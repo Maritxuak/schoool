@@ -485,7 +485,7 @@ body{
     font-weight: 600;
     font-size: 26px;
     line-height: 35px;
-    color: #1F1728;
+    color: #FFFFFF;
     margin-top: 20px;
 }
 .steps_text{
@@ -494,7 +494,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-    color: #64687D;
+    color: #FFFFFF;
     margin-top: 15px;
 }
 .btm_steps{
@@ -537,6 +537,13 @@ body{
     margin-bottom: 70px;
     margin-top: -50px;
 }
+.step_globle_title{
+    color:#FFFFFF;
+}
+.services_globle_title{
+    color:#FFFFFF;
+}
+
 /*================== Services ===================*/
 .services{
     display: block;
@@ -568,7 +575,7 @@ body{
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background: #EEEEEE;
+    background: #191023;
     margin-right: 15px;
 }
 .register_now_btm{
@@ -598,7 +605,7 @@ body{
     font-weight: 600;
     font-size: 26px;
     line-height: 35px;
-    color: #1F1728;
+    color: #ffffff;
     text-align: left;
     padding-bottom: 5px;
 }
@@ -608,7 +615,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-    color: #64687D;
+    color: #ffffff;
     text-align: left;
     padding-top: 5px;
     padding-right: 50px;
@@ -638,6 +645,15 @@ body{
 .interface_picture{
     width: 40%;
     user-select: none;
+    display: none;
+}
+.interface_pictur{
+    position: absolute;
+    right: 0;
+    display:inline;
+}
+.crypto_map_number_slider{
+    color:#FFFFFF;
 }
 .interface_alltext_title{
     font-family: 'Open Sans', sans-serif;
@@ -646,7 +662,7 @@ body{
     font-size: 44px;
     line-height: 130%;
     letter-spacing: 1px;
-    color: #1F1728;
+    color: #ffffff;
 }
 .interface_text_subtitle{
     font-family: 'Open Sans', sans-serif;
@@ -654,7 +670,7 @@ body{
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
-    color: #333333;
+    color: #ffffff;
     margin-top: 40px;
 }
 input.switch[type="checkbox"]{
@@ -709,8 +725,12 @@ input.switch:checked[type="checkbox"]::before{
     line-height: 150%;
     color: #1F1728;
 }
+.minimalistic_text{
+    color:#ffffff;
+}
 .night_mode_text{
     margin-right: 35px;
+    color:#ffffff;
 }
 .minimalistic_img,.night_mode_btm_img{
     margin-right: 20px;

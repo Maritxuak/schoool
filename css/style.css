@@ -683,6 +683,11 @@ input.switch:checked[type="checkbox"]::before{
     position: absolute;
     right: 0;
 }
+.interface_pictur{
+    position: absolute;
+    right: 0;
+    display: none;
+}
 .night_mode_btm,.minimalistic{
     display: flex;
     align-items: center;
