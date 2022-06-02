@@ -289,7 +289,7 @@ ul{
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #8D8D8D;
+    background-color: #8442D6;
     height: 1px;
     width: 100%;
 }
@@ -299,7 +299,7 @@ ul{
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #8D8D8D;
+    color: #8442D6;
     padding: 20px 0;
-    background-color: #000000;
+    background-color: #8442D6;
 }

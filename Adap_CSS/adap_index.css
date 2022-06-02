@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 991px) {
+    .wrapper{
+        width: 720px;
+    }
+    .interface_picture_only{
+        display: flex;
+        justify-content: column;
+        position:static;
+    }
+}
+@media screen and (max-width: 1561px) {
+    .interface_picture_only{
+        display: none;
+    }
+    .interface_wrapper{
+        flex-direction: column;
+    }
+    .interface_picture_onl{
+        visibility: visible;
+    }
+}
