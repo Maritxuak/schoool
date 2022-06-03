@@ -29,6 +29,7 @@ body{
     padding-right: 40px;
 }
 .header{
+    max-width: 1920px;
     margin: 0 auto;
     width: 100%;
 }
@@ -53,7 +54,7 @@ body{
     padding: 0 24px;
     font-family: 'Open Sans';
     width: 65px;
-    color: #FFFFFf; 
+    color: #1F1728; 
     font-weight: 600;
     font-size: 14px;
     text-align: center;
@@ -68,7 +69,7 @@ body{
 }
 .header{
     user-select: none;
-    background-color: #1F1728;
+    background-color: #FFFFFF;
     
 }
 /*DARKMODE*/

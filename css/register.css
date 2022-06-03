@@ -68,14 +68,35 @@
     background-color: #FFFFFF;
     
 }
-/*======================DARKMODE==============*/
-body{
-    color:#1F1728;
-    background-color: white;
-    transition: 1s;
-}
 /*=====================LOGIN================*/
+.moon2{
+    display: flex;
+    justify-content: space-between;
+}
+.sign_a{
+    text-decoration: none;
+    color:#8442D6;
+}
+.container_signin{
+    text-align: center;
+    padding-bottom: 142px;
+}
+.ab1{
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.longg{
+    margin: 3px;
 
+}
+.longgj{
+    color:#000000;
+    text-decoration: none;
+}
+.longui{
+    text-decoration: none;
+    color:#ffffff;
+}
 .moon{
     padding: 5px;
 }

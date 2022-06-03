@@ -683,6 +683,12 @@ input.switch:checked[type="checkbox"]::before{
     position: absolute;
     right: 0;
 }
+.im2{
+    display: none;
+}
+.moo2{
+    display: none;
+}
 .interface_pictur{
     position: absolute;
     right: 0;
@@ -844,6 +850,10 @@ input.switch:checked[type="checkbox"]::before{
     font-size: 22px;
     line-height: 100%;
     color: #1F1728;
+    text-align: center;
+}
+.up2{
+    display: none;
 }
 .slider_fact_text{
     font-family: 'Open Sans', sans-serif;
