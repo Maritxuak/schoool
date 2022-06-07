@@ -26,12 +26,12 @@
                 <div class="login">
                     <div class="longg"><a href="page/login.html" class="Long"><span class="longg">Log in</span></a></div>
                     <div class="Sing"><a href="page/register.html" class="Sing__Inner">Sing Up</a></div>
-                    <ul action="formdata" method="post" name="form1">
-                         <li class="opt_list1"><img src="object/IMG/usd.svg"></li>
-                         <li><img src="object/IMG/inr.svg"></li>
-                         <li><img src="object/IMG/btc.svg"></li>
-                         <li><img src="object/IMG/eth.svg"></li>
-                    </ul>
+                    <div class="currency">
+                        <select id="current" name="current">
+                            <option value="usd" selected="selected">Доллары</option>
+                            <option value="euro" class="BTC"></option>
+                            <option value="rub">Рубли</option>
+                            </select>
                        
                     <div class="moon2">
                     <img src="object/IMG/crescent moon.svg" class="moo1">
@@ -1539,7 +1539,7 @@
                                 <span class="night_mode_text">
                                     Night mode
                                 </span>
-                                <span class="moon2"><input type="checkbox" class="switch"></span>
+                                <div class="moon2"><input type="checkbox" class="switch"></div>
                             </div>
                             <a class="register_now_btm" href="/page/register.html">
                                 Register now
@@ -1703,6 +1703,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/vallute.js"></script>
     <script src="js/dark_index.js"></script>
     <script src="js/slider_crypto_map.js"></script>
     <script src="js/parser.js"></script>

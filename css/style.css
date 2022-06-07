@@ -924,6 +924,10 @@ input.switch:checked[type="checkbox"]::before{
     flex-direction: column;
     z-index: 6;
 }
+/*==================Vallute=========================*/
+.BTC{
+    background: url("../object/IMG/usd.svg");
+}
 /*================== Start trade ===================*/
 .start_trade{
     display: flex;
