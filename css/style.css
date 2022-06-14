@@ -628,6 +628,10 @@ body{
 .interface_alltext{
     width: 53%;
     text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
 }
 .interface_picture{
     width: 40%;
