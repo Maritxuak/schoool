@@ -304,3 +304,116 @@ ul{
     padding: 20px 0;
     background-color: #8442D6;
 }
+
+
+
+
+
+
+
+
+
+
+/* Кнопка выпадающего списка */
+.dropbtn1 {
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown1 {
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top left, #F4B436 , rgba(239, 168, 30, 0.15) 15.1%,rgba(242, 174, 42, 0) 51.04%,rgba(244, 180, 54, 0.15) 84.9%, #FFCE53 100%);
+    -webkit-border-image: -webkit-linear-gradient(top left, rgba(239, 168, 30, 0.15) 15.1%,rgba(242, 174, 42, 0) 51.04%,rgba(244, 180, 54, 0.15) 84.9%, #F4F955 100%);
+    border-image: linear-gradient(to bottom right, #F4B436 , rgba(239, 168, 30, 0.15) 15.1%,rgba(242, 174, 42, 0) 51.04%,rgba(244, 180, 54, 0.15) 84.9%, #FFCE53 100%);
+    border-image-slice: 1;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content1 {
+    display: none;
+    background-color: #000000;
+    z-index: 1;
+}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {
+    display: block;
+}
+.d_dotext2_a1{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+.d_text1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.d_dotext1 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: left;
+    padding-left: 130px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+.d_dotext21 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background: #00B74A;
+    max-width: 310px;
+    margin-left:70px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    border-radius: 16px;
+}
+.texxt21{
+    margin-top: 35px;
+}
+.d_dotext1:after {
+    content:'';
+    background-color:#ffffff;
+    height:10px;
+    position: absolute;
+    width:10px;
+    left:40%;
+    top:14px;
+    left:100px;
+    z-index: 999;
+    border-radius: 5px;
+}
