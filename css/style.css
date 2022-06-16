@@ -57,6 +57,7 @@ body{
     justify-content: space-between;
     max-height: 74px;
     height: 100%;
+    padding: 20px;
 }
 .login{
     display:flex;
@@ -168,7 +169,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 .moon{
     padding: 5px;
@@ -542,6 +543,8 @@ body{
 }
 .services_table_large{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .services_table_upper{
     display: flex;
@@ -601,7 +604,6 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 130%;
     color: #64687D;
     text-align: left;
     padding-top: 5px;
@@ -930,7 +932,7 @@ input.switch:checked[type="checkbox"]::before{
 }
 /*==================Vallute=========================*/
 .BTC{
-    background: url("../object/IMG/usd.svg");
+    background: url("../object/IMG/USD 199.png");
 }
 /*================== Start trade ===================*/
 .start_trade{
@@ -1060,4 +1062,131 @@ ul{
     line-height: 19px;
     color: #8D8D8D;
     padding: 20px 0;
+}
+
+
+
+/* Кнопка выпадающего списка */
+.dropbtn11 {
+    color: white;
+    font-size: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 25px;
+    position: relative;
+}
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown11 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content11 {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 1px;
+    margin-top:200px;
+    margin-left:120px;
+    padding: 15px 58px 15px 15px;
+}
+.text_drop_11{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+}
+.d_text11_text{
+    padding: 0 5px;
+}
+.dark_spikol2{
+    display: none;
+}
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {
+    display: block;
+}
+.d_dotext2_a11{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+.d_text11 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1F1728;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    display: flex;
+    
+}
+.text_drop_11_img{
+    padding-right: 5px;
+}
+.d_dotext11 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: left;
+}
+.d_dotext21 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background: #00B74A;
+    max-width: 310px;
+    margin-left:70px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    border-radius: 16px;
+}
+.texxt21{
+    margin-top: 35px;
+}
+.d_dotext1:after {
+    content:'';
+    background-color:#ffffff;
+    height:10px;
+    position: absolute;
+    width:10px;
+    left:40%;
+    top:14px;
+    left:100px;
+    z-index: 999;
+    border-radius: 5px;
+}
+#spikol img{
+    transition: all .5s;
+}
+#spikol.joi img{
+    transform: rotate(180deg);
+    transition: all .5s;
+}
+.myDropdown11__inner{
+    display: flex;
+    justify-content: center;
 }

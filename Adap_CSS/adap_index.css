@@ -11,7 +11,7 @@
 }
 @media screen and (max-width: 1561px) {
     .interface_picture_only{
-        display: none;
+        margin-top: 140px;
     }
     .interface_wrapper{
         flex-direction: column;
@@ -27,5 +27,34 @@
     }
     .interface_p{
         margin:130px auto 0;
+    }
+}
+@media screen and (max-width: 991px){
+    .services_table_upper,.services_table_lower{
+        display: flex;
+        flex-direction: column;
+    }
+    .services_section_trade,.services_section_referralprogram{
+        margin-bottom:40px;
+    }
+}
+@media screen and (max-width: 991px){
+    .corrent_market_title{
+        margin-bottom:20px !important;
+    }
+    .corrent_market{
+        margin: 188px auto auto !important;
+    }
+    .tradingview-widget-container{
+        display: none;
+    }
+    .first_section_top_buttom{
+        margin-left: 15px;
+    }
+    .first_section_top_subtitle{
+        display: flex;
+    }
+    .first_section_top_figures{
+        display: none;
     }
 }
