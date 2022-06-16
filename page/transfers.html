@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Kripta</title>
+    <title>Apollox</title>
     <link rel="stylesheet" href="../css/transfers.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <link
         href="https://fonts.googleapis.com/css2?family=Kaushan+Script;500&family=Open+Sans&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
@@ -48,12 +49,12 @@
                                 Estimated Portfolio — ₹56.523
                             </div>
                             <div class="section_upper_down_left">
-                                <a class="section_upper_down_left_btm1" href="">
+                                <div class="section_upper_down_left_btm1 active" href="">
                                     FUNDS
-                                </a>
-                                <a class="section_upper_down_left_btm2" href="">
+                                </div>
+                                <div class="section_upper_down_left_btm2" href="">
                                     TRANSFER HISTORY
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -81,250 +82,1040 @@
                                 ACTION
                             </div>
                         </div>
-                        <div class="section_lower_bottom">
-                            <div class="section_lower_bottom_item">
-                                <div class="section_lower_bottom_item_wrapper slot_1">
-                                    <div class="coin_item">
-                                        <img src="/object/IMG/bitcoin_tran.svg" alt="">
-                                    </div>
-                                    <div class="assets_item">
-                                        Bitcoin (BTC)
-                                    </div>
-                                    <div class="balance_item">
-                                        0
-                                    </div>
-                                    <div class="locked_item">
-                                        0
-                                    </div>
-                                    <div class="total_item">
-                                        0
-                                    </div>
-                                    <div class="value_item">
-                                        0.00
-                                        <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
-                                    </div>
-                                    <div class="action_item">
-                                        <a class="action_btm1" href="">
-                                            Deposit
-                                        </a>
-                                        <a class="action_btm2" href="">
-                                            Withdraw
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="section_lower_bottom_item_down_wrapper">
-                                    <div class="section_lower_bottom_item_down_wrapper_left">
-                                        <div class="section_lower_bottom_item_input">
-                                            <input type="text" class="slb_input">
-                                            <label>
-                                                Send to Your Secure Bitcoin Deposit Address
-                                            </label>
-                                        </div>
-                                        <div class="section_lower_bottom_item_code">
-                                            <div class="section_lower_bottom_item_code_input_wrapper">
-                                                <div class="section_lower_bottom_item_code_input">
-                                                    <input type="text" class="slb_input">
-                                                <label>
-                                                    bc1qe6tvmnag37vqqqyvz0czh4h32a7d6ytmmystwh
-                                                </label>
+                        <div class="section_lower_bottom only">
+                            <div class="section_lower_bottom_item slot_1">
+                                <div class="section_lower_bottom_item_inner">
+                                    <div class="section_lower_bottom_item_wrapper">
+                                        <div class="section_lower_bottom_active_wrapper" id="section_lower_bottom_active_wrapper1">
+                                            <div class="coin_item">
+                                                <img src="/object/IMG/bitcoin_tran.svg" alt="">
+                                            </div>
+                                            <div class="assets_item">
+                                                Bitcoin (BTC)
+                                            </div>
+                                            <div class="balance_item">
+                                                0
+                                            </div>
+                                            <div class="locked_item">
+                                                0
+                                            </div>
+                                            <div class="total_item">
+                                                0
+                                            </div>
+                                            <div class="value_item">
+                                                0.00
+                                                <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
+                                            </div>
+                                            <div class="action_item">
+                                                <div class="action_btm1 b1" id="b1">
+                                                    Deposit
+                                                </div>
+                                                <div class="action_btm2" id="b1c">
+                                                    Withdraw
                                                 </div>
                                             </div>
-                                            <div class="section_lower_bottom_item_code_copy">
-                                                <a href="#">
-                                                    copy
-                                                </a>
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper">
+                                        <div class="section_lower_bottom_item_down_wrapper_space">
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_left">
+                                            <div class="section_lower_bottom_item_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_code">
+                                                <div class="section_lower_bottom_item_code_input_wrapper">
+                                                    <div class="section_lower_bottom_item_code_input">
+                                                        <label class="section_lower_bottom_item_input_label">
+                                                            bc1qe6tvmnag37vqqqyvz0czh4h32a7d6ytmmystwh
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="section_lower_bottom_item_code_copy">
+                                                    <a href="#">
+                                                        copy
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text">
+                                                <div class="section_lower_bottom_item_text_top">
+                                                    <div class="section_lower_bottom_item_text_top_img">
+                                                        !
+                                                    </div>
+                                                    <span class="slb_text_top">
+                                                        Disclaimer
+                                                    </span>
+                                                </div>
+                                                <div class="section_lower_bottom_item_text_down">
+                                                    <span class="slb_text_down">
+                                                        Please deposit only BTC to this address. If you deposit any other
+                                                        coins, it will be lost forever.
+                                                    </span>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="section_lower_bottom_item_text">
+                                        <div class="section_lower_bottom_item_down_wrapper_right">
+                                            <div class="section_lower_bottom_item_down_wrapper_right_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <img class="section_lower_bottom_item_down_wrapper_right_img" src="/object/IMG/transfers/qr_cod_bitcoin.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper_withdraw">
+                                        <div class="section_lower_bottom_item_down_wrapper_withdraw_inner">
+                                            <div class="section_lower_bottom_item_down_wrapper_withdraw_input">
+                                                <input type="text" class="withdraw_input" required>
+                                                <label class="bar">
+                                                    Transfer Bitcoin from your СRYPSTOL Wallet to another
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_volume">
+                                                <div class="volume_text">
+                                                    VOLUME
+                                                </div>
+                                                <div class="volume_filler">
+                                                    <div class="volume_filler_wrapper">
+                                                        <div class="volume_filler_input">
+                                                            <input type="text" class="volume_filler_input_org" placeholder="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="volume_filler_wrapper_btm">
+                                                        <a href="#">
+                                                            Withdraw All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_address">
+                                                <div class="address_text">
+                                                    DESTINATION ADDRESS
+                                                </div>
+                                                <div class="address_filler">
+                                                    <input type="text" class="address_filler_input">
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_remarks">
+                                                <div class="remarks_text">
+                                                    REMARKS
+                                                </div>
+                                                <div class="remarks_filler">
+                                                    <input type="text" class="remarks_filler_input">
+                                                </div>
+                                            </div>
+                                            <button class="section_lower_bottom_item_down_btm">
+                                                PROCEED WITH WITHDRAWAL
+                                            </button>
                                             <div class="section_lower_bottom_item_text_top">
-                                                <img src="" alt="">
+                                                <div class="section_lower_bottom_item_text_top_img">
+                                                    !
+                                                </div>
                                                 <span class="slb_text_top">
                                                     Disclaimer
                                                 </span>
                                             </div>
                                             <div class="section_lower_bottom_item_text_down">
-                                                <span class="slb_text_down">
-                                                    Please deposit only BTC to this address. If you deposit any other coins, it will be lost forever.
+                                                <span class="slb_text_down_w">
+                                                    Please cross-check the destination address. Withdrawals to Smart Contrarc Addresses,
+                                                    payments or participation in ICOs/Airdrops are not supported and will be lost forever.
+                                                    Withdrawal requests cannot be cancelled after submission.
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="section_lower_bottom_item_down_wrapper_right"></div>
                                 </div>
                             </div>
                             <div class="section_lower_bottom_item slot_2">
-                                <div class="coin_item">
-                                    <img src="/object/IMG/ethereum_tran.svg" alt="">
-                                </div>
-                                <div class="assets_item">
-                                    Ethereum (ETH)
-                                </div>
-                                <div class="balance_item">
-                                    0
-                                </div>
-                                <div class="locked_item">
-                                    0
-                                </div>
-                                <div class="total_item">
-                                    0
-                                </div>
-                                <div class="value_item">
-                                    0.00
-                                    <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
-                                </div>
-                                <div class="action_item">
-                                    <a class="action_btm1" href="">
-                                        Deposit
-                                    </a>
-                                    <a class="action_btm2" href="">
-                                        Withdraw
-                                    </a>
+                                <div class="section_lower_bottom_item_inner">
+                                    <div class="section_lower_bottom_item_wrapper">
+                                        <div class="section_lower_bottom_active_wrapper" id="section_lower_bottom_active_wrapper2">
+                                            <div class="coin_item">
+                                                <img src="/object/IMG/ethereum_tran.svg" alt="">
+                                            </div>
+                                            <div class="assets_item">
+                                                Ethereum (ETH)
+                                            </div>
+                                            <div class="balance_item">
+                                                0
+                                            </div>
+                                            <div class="locked_item">
+                                                0
+                                            </div>
+                                            <div class="total_item">
+                                                0
+                                            </div>
+                                            <div class="value_item">
+                                                0.00
+                                                <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
+                                            </div>
+                                            <div class="action_item">
+                                                <div class="action_btm1 b2" id="b2">
+                                                    Deposit
+                                                </div>
+                                                <div class="action_btm2" id="b2c">
+                                                    Withdraw
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper">
+                                        <div class="section_lower_bottom_item_down_wrapper_space">
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_left">
+                                            <div class="section_lower_bottom_item_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_code">
+                                                <div class="section_lower_bottom_item_code_input_wrapper">
+                                                    <div class="section_lower_bottom_item_code_input">
+                                                        <label class="section_lower_bottom_item_input_label">
+                                                            bc1qe6tvmnag37vqqqyvz0czh4h32a7d6ytmmystwh
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="section_lower_bottom_item_code_copy">
+                                                    <a href="#">
+                                                        copy
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text">
+                                                <div class="section_lower_bottom_item_text_top">
+                                                    <div class="section_lower_bottom_item_text_top_img">
+                                                        !
+                                                    </div>
+                                                    <span class="slb_text_top">
+                                                        Disclaimer
+                                                    </span>
+                                                </div>
+                                                <div class="section_lower_bottom_item_text_down">
+                                                    <span class="slb_text_down">
+                                                        Please deposit only BTC to this address. If you deposit any other
+                                                        coins, it will be lost forever.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_right">
+                                            <div class="section_lower_bottom_item_down_wrapper_right_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <img class="section_lower_bottom_item_down_wrapper_right_img" src="/object/IMG/transfers/qr_cod_bitcoin.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper_withdraw">
+                                        <div class="section_lower_bottom_item_down_wrapper_withdraw_inner">
+                                            <div class="section_lower_bottom_item_down_wrapper_withdraw_input">
+                                                <input type="text" class="withdraw_input" required>
+                                                <label class="bar">
+                                                    Transfer Bitcoin from your СRYPSTOL Wallet to another
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_volume">
+                                                <div class="volume_text">
+                                                    VOLUME
+                                                </div>
+                                                <div class="volume_filler">
+                                                    <div class="volume_filler_wrapper">
+                                                        <div class="volume_filler_input">
+                                                            <input type="text" class="volume_filler_input_org" placeholder="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="volume_filler_wrapper_btm">
+                                                        <a href="#">
+                                                            Withdraw All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_address">
+                                                <div class="address_text">
+                                                    DESTINATION ADDRESS
+                                                </div>
+                                                <div class="address_filler">
+                                                    <input type="text" class="address_filler_input">
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_remarks">
+                                                <div class="remarks_text">
+                                                    REMARKS
+                                                </div>
+                                                <div class="remarks_filler">
+                                                    <input type="text" class="remarks_filler_input">
+                                                </div>
+                                            </div>
+                                            <button class="section_lower_bottom_item_down_btm">
+                                                PROCEED WITH WITHDRAWAL
+                                            </button>
+                                            <div class="section_lower_bottom_item_text_top">
+                                                <div class="section_lower_bottom_item_text_top_img">
+                                                    !
+                                                </div>
+                                                <span class="slb_text_top">
+                                                    Disclaimer
+                                                </span>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text_down">
+                                                <span class="slb_text_down_w">
+                                                    Please cross-check the destination address. Withdrawals to Smart Contrarc Addresses,
+                                                    payments or participation in ICOs/Airdrops are not supported and will be lost forever.
+                                                    Withdrawal requests cannot be cancelled after submission.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="section_lower_bottom_item slot_3">
-                                <div class="coin_item">
-                                    <img src="/object/IMG/litecoin_tran.svg" alt="">
-                                </div>
-                                <div class="assets_item">
-                                    Litecoin (LTC)
-                                </div>
-                                <div class="balance_item">
-                                    0
-                                </div>
-                                <div class="locked_item">
-                                    0
-                                </div>
-                                <div class="total_item">
-                                    0
-                                </div>
-                                <div class="value_item">
-                                    0.00
-                                    <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
-                                </div>
-                                <div class="action_item">
-                                    <a class="action_btm1" href="">
-                                        Deposit
-                                    </a>
-                                    <a class="action_btm2" href="">
-                                        Withdraw
-                                    </a>
+                                <div class="section_lower_bottom_item_inner">
+                                    <div class="section_lower_bottom_item_wrapper">
+                                        <div class="section_lower_bottom_active_wrapper" id="section_lower_bottom_active_wrapper3">
+                                            <div class="coin_item">
+                                                <img src="/object/IMG/litecoin_tran.svg" alt="">
+                                            </div>
+                                            <div class="assets_item">
+                                                Litecoin (LTC)
+                                            </div>
+                                            <div class="balance_item">
+                                                0
+                                            </div>
+                                            <div class="locked_item">
+                                                0
+                                            </div>
+                                            <div class="total_item">
+                                                0
+                                            </div>
+                                            <div class="value_item">
+                                                0.00
+                                                <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
+                                            </div>
+                                            <div class="action_item">
+                                                <div class="action_btm1 b3" id="b3">
+                                                    Deposit
+                                                </div>
+                                                <div class="action_btm2" id="b3c">
+                                                    Withdraw
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper">
+                                        <div class="section_lower_bottom_item_down_wrapper_space">
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_left">
+                                            <div class="section_lower_bottom_item_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_code">
+                                                <div class="section_lower_bottom_item_code_input_wrapper">
+                                                    <div class="section_lower_bottom_item_code_input">
+                                                        <label class="section_lower_bottom_item_input_label">
+                                                            bc1qe6tvmnag37vqqqyvz0czh4h32a7d6ytmmystwh
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="section_lower_bottom_item_code_copy">
+                                                    <a href="#">
+                                                        copy
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text">
+                                                <div class="section_lower_bottom_item_text_top">
+                                                    <div class="section_lower_bottom_item_text_top_img">
+                                                        !
+                                                    </div>
+                                                    <span class="slb_text_top">
+                                                        Disclaimer
+                                                    </span>
+                                                </div>
+                                                <div class="section_lower_bottom_item_text_down">
+                                                    <span class="slb_text_down">
+                                                        Please deposit only BTC to this address. If you deposit any other
+                                                        coins, it will be lost forever.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_right">
+                                            <div class="section_lower_bottom_item_down_wrapper_right_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <img class="section_lower_bottom_item_down_wrapper_right_img" src="/object/IMG/transfers/qr_cod_bitcoin.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper_withdraw">
+                                        <div class="section_lower_bottom_item_down_wrapper_withdraw_inner">
+                                            <div class="section_lower_bottom_item_down_wrapper_withdraw_input">
+                                                <input type="text" class="withdraw_input" required>
+                                                <label class="bar">
+                                                    Transfer Bitcoin from your СRYPSTOL Wallet to another
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_volume">
+                                                <div class="volume_text">
+                                                    VOLUME
+                                                </div>
+                                                <div class="volume_filler">
+                                                    <div class="volume_filler_wrapper">
+                                                        <div class="volume_filler_input">
+                                                            <input type="text" class="volume_filler_input_org" placeholder="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="volume_filler_wrapper_btm">
+                                                        <a href="#">
+                                                            Withdraw All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_address">
+                                                <div class="address_text">
+                                                    DESTINATION ADDRESS
+                                                </div>
+                                                <div class="address_filler">
+                                                    <input type="text" class="address_filler_input">
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_remarks">
+                                                <div class="remarks_text">
+                                                    REMARKS
+                                                </div>
+                                                <div class="remarks_filler">
+                                                    <input type="text" class="remarks_filler_input">
+                                                </div>
+                                            </div>
+                                            <button class="section_lower_bottom_item_down_btm">
+                                                PROCEED WITH WITHDRAWAL
+                                            </button>
+                                            <div class="section_lower_bottom_item_text_top">
+                                                <div class="section_lower_bottom_item_text_top_img">
+                                                    !
+                                                </div>
+                                                <span class="slb_text_top">
+                                                    Disclaimer
+                                                </span>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text_down">
+                                                <span class="slb_text_down_w">
+                                                    Please cross-check the destination address. Withdrawals to Smart Contrarc Addresses,
+                                                    payments or participation in ICOs/Airdrops are not supported and will be lost forever.
+                                                    Withdrawal requests cannot be cancelled after submission.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>  
                                 </div>
                             </div>
                             <div class="section_lower_bottom_item slot_4">
-                                <div class="coin_item">
-                                    <img src="/object/IMG/dash_tran.svg" alt="">
-                                </div>
-                                <div class="assets_item">
-                                    Dash (DASH)
-                                </div>
-                                <div class="balance_item">
-                                    0
-                                </div>
-                                <div class="locked_item">
-                                    0
-                                </div>
-                                <div class="total_item">
-                                    0
-                                </div>
-                                <div class="value_item">
-                                    0.00
-                                    <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
-                                </div>
-                                <div class="action_item">
-                                    <a class="action_btm1" href="">
-                                        Deposit
-                                    </a>
-                                    <a class="action_btm2" href="">
-                                        Withdraw
-                                    </a>
+                                <div class="section_lower_bottom_item_inner">
+                                    <div class="section_lower_bottom_item_wrapper">
+                                        <div class="section_lower_bottom_active_wrapper" id="section_lower_bottom_active_wrapper4">
+                                            <div class="coin_item">
+                                                <img src="/object/IMG/dash_tran.svg" alt="">
+                                            </div>
+                                            <div class="assets_item">
+                                                Dash (DASH)
+                                            </div>
+                                            <div class="balance_item">
+                                                0
+                                            </div>
+                                            <div class="locked_item">
+                                                0
+                                            </div>
+                                            <div class="total_item">
+                                                0
+                                            </div>
+                                            <div class="value_item">
+                                                0.00
+                                                <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
+                                            </div>
+                                            <div class="action_item">
+                                                <div class="action_btm1 b4" id="b4">
+                                                    Deposit
+                                                </div>
+                                                <div class="action_btm2" id="b4c">
+                                                    Withdraw
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper">
+                                        <div class="section_lower_bottom_item_down_wrapper_space">
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_left">
+                                            <div class="section_lower_bottom_item_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_code">
+                                                <div class="section_lower_bottom_item_code_input_wrapper">
+                                                    <div class="section_lower_bottom_item_code_input">
+                                                        <label class="section_lower_bottom_item_input_label">
+                                                            bc1qe6tvmnag37vqqqyvz0czh4h32a7d6ytmmystwh
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="section_lower_bottom_item_code_copy">
+                                                    <a href="#">
+                                                        copy
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text">
+                                                <div class="section_lower_bottom_item_text_top">
+                                                    <div class="section_lower_bottom_item_text_top_img">
+                                                        !
+                                                    </div>
+                                                    <span class="slb_text_top">
+                                                        Disclaimer
+                                                    </span>
+                                                </div>
+                                                <div class="section_lower_bottom_item_text_down">
+                                                    <span class="slb_text_down">
+                                                        Please deposit only BTC to this address. If you deposit any other
+                                                        coins, it will be lost forever.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_right">
+                                            <div class="section_lower_bottom_item_down_wrapper_right_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <img class="section_lower_bottom_item_down_wrapper_right_img" src="/object/IMG/transfers/qr_cod_bitcoin.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper_withdraw">
+                                        <div class="section_lower_bottom_item_down_wrapper_withdraw_inner">
+                                            <div class="section_lower_bottom_item_down_wrapper_withdraw_input">
+                                                <input type="text" class="withdraw_input" required>
+                                                <label class="bar">
+                                                    Transfer Bitcoin from your СRYPSTOL Wallet to another
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_volume">
+                                                <div class="volume_text">
+                                                    VOLUME
+                                                </div>
+                                                <div class="volume_filler">
+                                                    <div class="volume_filler_wrapper">
+                                                        <div class="volume_filler_input">
+                                                            <input type="text" class="volume_filler_input_org" placeholder="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="volume_filler_wrapper_btm">
+                                                        <a href="#">
+                                                            Withdraw All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_address">
+                                                <div class="address_text">
+                                                    DESTINATION ADDRESS
+                                                </div>
+                                                <div class="address_filler">
+                                                    <input type="text" class="address_filler_input">
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_remarks">
+                                                <div class="remarks_text">
+                                                    REMARKS
+                                                </div>
+                                                <div class="remarks_filler">
+                                                    <input type="text" class="remarks_filler_input">
+                                                </div>
+                                            </div>
+                                            <button class="section_lower_bottom_item_down_btm">
+                                                PROCEED WITH WITHDRAWAL
+                                            </button>
+                                            <div class="section_lower_bottom_item_text_top">
+                                                <div class="section_lower_bottom_item_text_top_img">
+                                                    !
+                                                </div>
+                                                <span class="slb_text_top">
+                                                    Disclaimer
+                                                </span>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text_down">
+                                                <span class="slb_text_down_w">
+                                                    Please cross-check the destination address. Withdrawals to Smart Contrarc Addresses,
+                                                    payments or participation in ICOs/Airdrops are not supported and will be lost forever.
+                                                    Withdrawal requests cannot be cancelled after submission.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="section_lower_bottom_item slot_5">
-                                <div class="coin_item">
-                                    <img src="/object/IMG/dogecoin_tran.svg" alt="">
-                                </div>
-                                <div class="assets_item">
-                                    Dogecoin (DOGE)
-                                </div>
-                                <div class="balance_item">
-                                    0
-                                </div>
-                                <div class="locked_item">
-                                    0
-                                </div>
-                                <div class="total_item">
-                                    0
-                                </div>
-                                <div class="value_item">
-                                    0.00
-                                    <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
-                                </div>
-                                <div class="action_item">
-                                    <a class="action_btm1" href="">
-                                        Deposit
-                                    </a>
-                                    <a class="action_btm2" href="">
-                                        Withdraw
-                                    </a>
+                                <div class="section_lower_bottom_item_inner">
+                                    <div class="section_lower_bottom_item_wrapper">
+                                        <div class="section_lower_bottom_active_wrapper" id="section_lower_bottom_active_wrapper5">
+                                            <div class="coin_item">
+                                                <img src="/object/IMG/dogecoin_tran.svg" alt="">
+                                            </div>
+                                            <div class="assets_item">
+                                                Dogecoin (DOGE)
+                                            </div>
+                                            <div class="balance_item">
+                                                0
+                                            </div>
+                                            <div class="locked_item">
+                                                0
+                                            </div>
+                                            <div class="total_item">
+                                                0
+                                            </div>
+                                            <div class="value_item">
+                                                0.00
+                                                <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
+                                            </div>
+                                            <div class="action_item">
+                                                <div class="action_btm1 b5" id="b5">
+                                                    Deposit
+                                                </div>
+                                                <div class="action_btm2" id="b5c">
+                                                    Withdraw
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper">
+                                        <div class="section_lower_bottom_item_down_wrapper_space">
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_left">
+                                            <div class="section_lower_bottom_item_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_code">
+                                                <div class="section_lower_bottom_item_code_input_wrapper">
+                                                    <div class="section_lower_bottom_item_code_input">
+                                                        <label class="section_lower_bottom_item_input_label">
+                                                            bc1qe6tvmnag37vqqqyvz0czh4h32a7d6ytmmystwh
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="section_lower_bottom_item_code_copy">
+                                                    <a href="#">
+                                                        copy
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text">
+                                                <div class="section_lower_bottom_item_text_top">
+                                                    <div class="section_lower_bottom_item_text_top_img">
+                                                        !
+                                                    </div>
+                                                    <span class="slb_text_top">
+                                                        Disclaimer
+                                                    </span>
+                                                </div>
+                                                <div class="section_lower_bottom_item_text_down">
+                                                    <span class="slb_text_down">
+                                                        Please deposit only BTC to this address. If you deposit any other
+                                                        coins, it will be lost forever.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_right">
+                                            <div class="section_lower_bottom_item_down_wrapper_right_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <img class="section_lower_bottom_item_down_wrapper_right_img" src="/object/IMG/transfers/qr_cod_bitcoin.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper_withdraw">
+                                        <div class="section_lower_bottom_item_down_wrapper_withdraw_inner">
+                                            <div class="section_lower_bottom_item_down_wrapper_withdraw_input">
+                                                <input type="text" class="withdraw_input" required>
+                                                <label class="bar">
+                                                    Transfer Bitcoin from your СRYPSTOL Wallet to another
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_volume">
+                                                <div class="volume_text">
+                                                    VOLUME
+                                                </div>
+                                                <div class="volume_filler">
+                                                    <div class="volume_filler_wrapper">
+                                                        <div class="volume_filler_input">
+                                                            <input type="text" class="volume_filler_input_org" placeholder="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="volume_filler_wrapper_btm">
+                                                        <a href="#">
+                                                            Withdraw All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_address">
+                                                <div class="address_text">
+                                                    DESTINATION ADDRESS
+                                                </div>
+                                                <div class="address_filler">
+                                                    <input type="text" class="address_filler_input">
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_remarks">
+                                                <div class="remarks_text">
+                                                    REMARKS
+                                                </div>
+                                                <div class="remarks_filler">
+                                                    <input type="text" class="remarks_filler_input">
+                                                </div>
+                                            </div>
+                                            <button class="section_lower_bottom_item_down_btm">
+                                                PROCEED WITH WITHDRAWAL
+                                            </button>
+                                            <div class="section_lower_bottom_item_text_top">
+                                                <div class="section_lower_bottom_item_text_top_img">
+                                                    !
+                                                </div>
+                                                <span class="slb_text_top">
+                                                    Disclaimer
+                                                </span>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text_down">
+                                                <span class="slb_text_down_w">
+                                                    Please cross-check the destination address. Withdrawals to Smart Contrarc Addresses,
+                                                    payments or participation in ICOs/Airdrops are not supported and will be lost forever.
+                                                    Withdrawal requests cannot be cancelled after submission.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="section_lower_bottom_item slot_6">
-                                <div class="coin_item">
-                                    <img src="/object/IMG/tether_tran.svg" alt="">
-                                </div>
-                                <div class="assets_item">
-                                    Tether USD (USDT)
-                                </div>
-                                <div class="balance_item">
-                                    0
-                                </div>
-                                <div class="locked_item">
-                                    0
-                                </div>
-                                <div class="total_item">
-                                    0
-                                </div>
-                                <div class="value_item">
-                                    0.00
-                                    <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
-                                </div>
-                                <div class="action_item">
-                                    <a class="action_btm1" href="">
-                                        Deposit
-                                    </a>
-                                    <a class="action_btm2" href="">
-                                        Withdraw
-                                    </a>
+                                <div class="section_lower_bottom_item_inner">
+                                    <div class="section_lower_bottom_item_wrapper">
+                                        <div class="section_lower_bottom_active_wrapper" id="section_lower_bottom_active_wrapper6">
+                                            <div class="coin_item">
+                                                <img src="/object/IMG/tether_tran.svg" alt="">
+                                            </div>
+                                            <div class="assets_item">
+                                                Tether USD (USDT)
+                                            </div>
+                                            <div class="balance_item">
+                                                0
+                                            </div>
+                                            <div class="locked_item">
+                                                0
+                                            </div>
+                                            <div class="total_item">
+                                                0
+                                            </div>
+                                            <div class="value_item">
+                                                0.00
+                                                <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
+                                            </div>
+                                            <div class="action_item">
+                                                <div class="action_btm1 b6" id="b6" href="#b6">
+                                                    Deposit
+                                                </div>
+                                                <div class="action_btm2" id="b6c">
+                                                    Withdraw
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper">
+                                        <div class="section_lower_bottom_item_down_wrapper_space">
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_left">
+                                            <div class="section_lower_bottom_item_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_code">
+                                                <div class="section_lower_bottom_item_code_input_wrapper">
+                                                    <div class="section_lower_bottom_item_code_input">
+                                                        <label class="section_lower_bottom_item_input_label">
+                                                            bc1qe6tvmnag37vqqqyvz0czh4h32a7d6ytmmystwh
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="section_lower_bottom_item_code_copy">
+                                                    <a href="#">
+                                                        copy
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text">
+                                                <div class="section_lower_bottom_item_text_top">
+                                                    <div class="section_lower_bottom_item_text_top_img">
+                                                        !
+                                                    </div>
+                                                    <span class="slb_text_top">
+                                                        Disclaimer
+                                                    </span>
+                                                </div>
+                                                <div class="section_lower_bottom_item_text_down">
+                                                    <span class="slb_text_down">
+                                                        Please deposit only BTC to this address. If you deposit any other
+                                                        coins, it will be lost forever.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_right">
+                                            <div class="section_lower_bottom_item_down_wrapper_right_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <img class="section_lower_bottom_item_down_wrapper_right_img" src="/object/IMG/transfers/qr_cod_bitcoin.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper_withdraw">
+                                        <div class="section_lower_bottom_item_down_wrapper_withdraw_inner">
+                                            <div class="section_lower_bottom_item_down_wrapper_withdraw_input">
+                                                <input type="text" class="withdraw_input" required>
+                                                <label class="bar">
+                                                    Transfer Bitcoin from your СRYPSTOL Wallet to another
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_volume">
+                                                <div class="volume_text">
+                                                    VOLUME
+                                                </div>
+                                                <div class="volume_filler">
+                                                    <div class="volume_filler_wrapper">
+                                                        <div class="volume_filler_input">
+                                                            <input type="text" class="volume_filler_input_org" placeholder="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="volume_filler_wrapper_btm">
+                                                        <a href="#">
+                                                            Withdraw All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_address">
+                                                <div class="address_text">
+                                                    DESTINATION ADDRESS
+                                                </div>
+                                                <div class="address_filler">
+                                                    <input type="text" class="address_filler_input">
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_remarks">
+                                                <div class="remarks_text">
+                                                    REMARKS
+                                                </div>
+                                                <div class="remarks_filler">
+                                                    <input type="text" class="remarks_filler_input">
+                                                </div>
+                                            </div>
+                                            <button class="section_lower_bottom_item_down_btm">
+                                                PROCEED WITH WITHDRAWAL
+                                            </button>
+                                            <div class="section_lower_bottom_item_text_top">
+                                                <div class="section_lower_bottom_item_text_top_img">
+                                                    !
+                                                </div>
+                                                <span class="slb_text_top">
+                                                    Disclaimer
+                                                </span>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text_down">
+                                                <span class="slb_text_down_w">
+                                                    Please cross-check the destination address. Withdrawals to Smart Contrarc Addresses,
+                                                    payments or participation in ICOs/Airdrops are not supported and will be lost forever.
+                                                    Withdrawal requests cannot be cancelled after submission.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="section_lower_bottom_item slot_7">
-                                <div class="coin_item">
-                                    <img src="/object/IMG/bitcoin_cash_tran.svg" alt="">
+                                <div class="section_lower_bottom_item_inner">
+                                    <div class="section_lower_bottom_item_wrapper">
+                                        <div class="section_lower_bottom_active_wrapper" id="section_lower_bottom_active_wrapper7">
+                                            <div class="coin_item">
+                                                <img src="/object/IMG/bitcoin_cash_tran.svg" alt="">
+                                            </div>
+                                            <div class="assets_item">
+                                                Bitcoin Cash (BCH)
+                                            </div>
+                                            <div class="balance_item">
+                                                0
+                                            </div>
+                                            <div class="locked_item">
+                                                0
+                                            </div>
+                                            <div class="total_item">
+                                                0
+                                            </div>
+                                            <div class="value_item">
+                                                0.00
+                                                <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
+                                            </div>
+                                            <div class="action_item">
+                                                <div class="action_btm1 b7" id="b7">
+                                                    Deposit
+                                                </div>
+                                                <div class="action_btm2" id="b7c">
+                                                    Withdraw
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper">
+                                        <div class="section_lower_bottom_item_down_wrapper_space">
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_left">
+                                            <div class="section_lower_bottom_item_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_code">
+                                                <div class="section_lower_bottom_item_code_input_wrapper">
+                                                    <div class="section_lower_bottom_item_code_input">
+                                                        <label class="section_lower_bottom_item_input_label">
+                                                            bc1qe6tvmnag37vqqqyvz0czh4h32a7d6ytmmystwh
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="section_lower_bottom_item_code_copy">
+                                                    <a href="#">
+                                                        copy
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text">
+                                                <div class="section_lower_bottom_item_text_top">
+                                                    <div class="section_lower_bottom_item_text_top_img">
+                                                        !
+                                                    </div>
+                                                    <span class="slb_text_top">
+                                                        Disclaimer
+                                                    </span>
+                                                </div>
+                                                <div class="section_lower_bottom_item_text_down">
+                                                    <span class="slb_text_down">
+                                                        Please deposit only BTC to this address. If you deposit any other
+                                                        coins, it will be lost forever.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="section_lower_bottom_item_down_wrapper_right">
+                                            <div class="section_lower_bottom_item_down_wrapper_right_input">
+                                                <input type="text" class="text" required>
+                                                <label class="bar">
+                                                    Send to Your Secure Bitcoin Deposit Address
+                                                </label>
+                                            </div>
+                                            <img class="section_lower_bottom_item_down_wrapper_right_img" src="/object/IMG/transfers/qr_cod_bitcoin.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="section_lower_bottom_item_down_wrapper_withdraw">
+                                        <div class="section_lower_bottom_item_down_wrapper_withdraw_inner">
+                                            <div class="section_lower_bottom_item_down_wrapper_withdraw_input">
+                                                <input type="text" class="withdraw_input" required>
+                                                <label class="bar">
+                                                    Transfer Bitcoin from your СRYPSTOL Wallet to another
+                                                </label>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_volume">
+                                                <div class="volume_text">
+                                                    VOLUME
+                                                </div>
+                                                <div class="volume_filler">
+                                                    <div class="volume_filler_wrapper">
+                                                        <div class="volume_filler_input">
+                                                            <input type="text" class="volume_filler_input_org" placeholder="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="volume_filler_wrapper_btm">
+                                                        <a href="#">
+                                                            Withdraw All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_address">
+                                                <div class="address_text">
+                                                    DESTINATION ADDRESS
+                                                </div>
+                                                <div class="address_filler">
+                                                    <input type="text" class="address_filler_input">
+                                                </div>
+                                            </div>
+                                            <div class="section_lower_bottom_item_down_remarks">
+                                                <div class="remarks_text">
+                                                    REMARKS
+                                                </div>
+                                                <div class="remarks_filler">
+                                                    <input type="text" class="remarks_filler_input">
+                                                </div>
+                                            </div>
+                                            <button class="section_lower_bottom_item_down_btm">
+                                                PROCEED WITH WITHDRAWAL
+                                            </button>
+                                            <div class="section_lower_bottom_item_text_top">
+                                                <div class="section_lower_bottom_item_text_top_img">
+                                                    !
+                                                </div>
+                                                <span class="slb_text_top">
+                                                    Disclaimer
+                                                </span>
+                                            </div>
+                                            <div class="section_lower_bottom_item_text_down">
+                                                <span class="slb_text_down_w">
+                                                    Please cross-check the destination address. Withdrawals to Smart Contrarc Addresses,
+                                                    payments or participation in ICOs/Airdrops are not supported and will be lost forever.
+                                                    Withdrawal requests cannot be cancelled after submission.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="assets_item">
-                                    Bitcoin Cash (BCH)
-                                </div>
-                                <div class="balance_item">
-                                    0
-                                </div>
-                                <div class="locked_item">
-                                    0
-                                </div>
-                                <div class="total_item">
-                                    0
-                                </div>
-                                <div class="value_item">
-                                    0.00
-                                    <img class="value_picture" src="/object/IMG/arrow_bottom.svg" alt="">
-                                </div>
-                                <div class="action_item">
-                                    <a class="action_btm1" href="">
-                                        Deposit
-                                    </a>
-                                    <a class="action_btm2" href="">
-                                        Withdraw
-                                    </a>
-                                </div>
+                            </div>
+                        </div>
+                        <div class="section_lower_history">
+                            <div class="section_lower_history_loading">
+                                No history found..
                             </div>
                         </div>
                     </div>
