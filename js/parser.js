@@ -1,4 +1,4 @@
-const versionSW = "30January009999";
+/*const versionSW = "30January009999";
 
 const CACHE_NAME = "V9";
 const STATIC_CACHE_URLS = [
@@ -35,4 +35,4 @@ self.addEventListener("fetch", event => {
       .match(event.request) // check if the request has already been cached
       .then(cached => cached || fetch(event.request)) // otherwise request network
   );
-});
+});*/
