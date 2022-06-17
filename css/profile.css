@@ -1,0 +1,607 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*=================WRAPPER===================*/
+body {
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: #ededed;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #ededed;
+}
+
+.maincontainer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+/*==================HEADER===================*/
+
+.logo__text {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.long_a {
+    text-decoration: none;
+    color: #1F1728;
+}
+
+.Long:hover {
+    color: #F39D35;
+    transition: 0.1s;
+}
+
+.container {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    width: 100%;
+    max-height: 74px;
+}
+
+.container__inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    max-height: 74px;
+    height: 100%;
+
+}
+
+.login {
+    display: flex;
+}
+
+.logo a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NFT {
+    padding: 0 24px;
+    font-family: 'Open Sans', sans-serif;
+    width: 65px;
+    color: #1F1728;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NFT1 {
+    margin-left: 140px;
+    margin-right: 90px;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    user-select: none;
+    background-color: #FFFFFF;
+
+}
+
+/*=====================LOGIN================*/
+.login {
+    padding: 10px;
+    align-items: center;
+}
+
+.Long {
+    padding: 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.back {
+    background-color: #EDEDED;
+    height: 100%;
+    overflow: 0;
+}
+
+.inner {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+.PRIVACY {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 74px;
+}
+
+.text_l {
+    display: flex;
+}
+
+.Text_iiner {
+    display: flex;
+    padding-bottom: 25px;
+    padding-top: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.text_Funds {
+    padding-right: 71px;
+    transition: color .2s linear;
+    position: relative;
+    padding-left: 35px;
+    user-select: none;
+    padding-bottom: 20px;
+}
+
+.text_Funds:after {
+    content: "";
+    height: 2px;
+    width: 75%;
+    background-color: #FF8C00;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .2s linear;
+    display: flex;
+    justify-content: center;
+}
+
+.text_Funds:hover {
+    color: #FF8C00;
+}
+
+.text_Funds:hover:after {
+    opacity: 1;
+}
+
+.text_trans {
+    position: relative;
+    user-select: none;
+}
+
+.text_trans:after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #FF8C00;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+
+.text_trans:hover {
+    color: #FF8C00;
+}
+
+.text_trans:hover:after {
+    opacity: 1;
+}
+
+.assets {
+    padding-left: 90px;
+    padding: 4px 0 4px 90px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #8D8D8D;
+    width: 38%;
+}
+
+.ACTION {
+    font-weight: 500;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #8D8D8D;
+}
+
+.men {
+    font-weight: 500;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #8D8D8D;
+    width: 25%;
+}
+
+.menu {
+    width: 62%;
+    display: flex;
+}
+
+/*================== NAVIG=====================*/
+.navig {
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    padding-right: 160px;
+}
+
+.navig:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 140%;
+    background-color: #CCCCCC;
+    height: 1px;
+    width: 100%;
+}
+/*================== Footer =====================*/
+
+.footer_upper_adap{
+    display: none;
+}
+
+/* Кнопка выпадающего списка */
+.dropbtn1 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px auto;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown1 {
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content1 {
+    display: none;
+    z-index: 1;
+}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {
+    display: block;
+}
+.d_dotext2_a1{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+.d_text1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8442D6;
+}
+.myDropdown1df{
+    text-align: left;
+
+}
+.d_dotext1 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: left;
+    padding-left: 130px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+.d_dotext21 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background: #00B74A;
+    max-width: 310px;
+    margin-left:70px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    border-radius: 16px;
+}
+.texxt21{
+    margin-top: 35px;
+}
+.d_dotext1:after {
+    content:'';
+    background-color:#ffffff;
+    height:10px;
+    width:10px;
+    left:40%;
+    top:14px;
+    left:100px;
+    z-index: 999;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* Кнопка выпадающего списка */
+.dropbtn2 {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px auto;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown2 {
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content2 {
+    display: none;
+    z-index: 1;
+}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {
+    display: block;
+}
+.d_dotext2_a2{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+.d_text2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8442D6;
+}
+
+.d_dotext2 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: left;
+    padding-left: 130px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+.d_dotext22 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    max-width: 310px;
+    margin-left:70px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    border-radius: 16px;
+}
+.texxt22{
+    margin-top: 35px;
+}
+.d_dotext2:after {
+    content:'';
+    background-color:#ffffff;
+    height:10px;
+    position: absolute;
+    width:10px;
+    left:40%;
+    top:14px;
+    left:100px;
+    z-index: 999;
+    border-radius: 5px;
+}
+
+.footer_section_inner{
+    display: flex;
+    justify-content: space-between;
+}
+#Anna_ipolitovna2{
+    display: none;
+}
+.Love{
+    display: none;
+}
+#Anna_ipolitovna2.Love2{
+    display: block;
+}
+#Anna_ipolitovna22{
+    display: none;
+}
+#Anna_ipolitovna22.Love22{
+    display: block;
+}
+.Love21{
+    display: none; 
+}
+#Anna_ipolitovna32{
+    display: none;
+}
+#Anna_ipolitovna32.Love32{
+    display: block;
+}
+.Love31{
+    display: none;
+}
+/* Кнопка выпадающего списка */
+.dropbtn3 {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px auto;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown3 {
+    max-width: 1200px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.Love{
+    display: none;
+}
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content3 {
+    display: none;
+    z-index: 1;
+}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {
+    display: block;
+}
+.d_dotext2_a3{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+.d_text3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8442D6;
+}
+
+.d_dotext3 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: left;
+    padding-left: 130px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+.d_dotext23 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background: #00B74A;
+    max-width: 310px;
+    margin-left:70px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    border-radius: 16px;
+}
+.texxt23{
+    margin-top: 35px;
+}
+.d_dotext3:after {
+    content:'';
+    background-color:#ffffff;
+    height:10px;
+    position: absolute;
+    width:10px;
+    left:40%;
+    top:14px;
+    left:100px;
+    z-index: 999;
+    border-radius: 5px;
+}
+.dropdown1_inner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+
+

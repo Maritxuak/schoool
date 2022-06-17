@@ -8,3 +8,11 @@
         display: block;
     }
 }
+@media only screen and (max-width:750px){
+    .footer_upper{
+        display: none;
+    }
+    .footer_upper_adap{
+        display: block;
+    }
+}

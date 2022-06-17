@@ -52,7 +52,6 @@ ar_top.onclick = function(){
 }
 ar_down.onclick = function(){
     if( turn >= 2 && turn <= 5){
-        console.log(turn)
         turn = turn - 1
         number.innerHTML = '0' + turn
     }

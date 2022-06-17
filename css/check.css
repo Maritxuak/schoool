@@ -49,7 +49,7 @@
 }
 .NFT{
     padding: 0 24px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     width: 65px;
     color: #1F1728; 
     font-weight: 600;
