@@ -8,3 +8,24 @@
         display: block;
     }
 }
+@media only screen and (max-width:535px){
+    .moon2{
+        display: none;
+    }
+    .NFT{
+        display: none;
+    }
+    .logo_koillok{
+        display: block;
+    }
+    .container{
+        padding-right: 15px !important;
+    }
+    .kol1,.checkbox {
+        margin-left: 40px !important;
+    }
+    .label{
+        display: flex;
+        flex-direction: column;
+    }
+}
