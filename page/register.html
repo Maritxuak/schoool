@@ -10,12 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Kaushan+Script;500&family=Open+Sans&family=Roboto:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script;500&family=Open+Sans&family=Roboto:wght@400;700;600&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper" id="wrapper_okno">
         <header class="header">
             <div class="container">
                 <div class="container__inner">
@@ -26,160 +26,88 @@
                         <div class="NFT NFT1"><span>Excgange</span></div>
                         <div class="NFT"><span>NFT</span></div>
                     </div>
+                    <div class="logo_koillok" onclick="Burger()"><img src="../object/IMG/header/burger.svg" alt="">
+                    </div>
                     <div class="moon2" id="moonk">
                         <img src="../object/IMG/crescent moon.svg">
 
                     </div>
                 </div>
             </div>
-    </div>
-    </header>
-    <div class="container_2">
-        <form>
-            <div class="containerz">
-                <h1 class="tex tex1">Enter Account Details</h1>
-                <p class="tex tex2">Enter your account details and a strong password to secure your account.</p>
-                <hr>
+        </header>
+        <div class="container_2">
+            <form>
+                <div class="containerz">
+                    <h1 class="tex tex1">Enter Account Details</h1>
+                    <p class="tex tex2">Enter your account details and a strong password to secure your account.</p>
+                    <hr>
 
-                <label for="email" class="Form__text"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" required class="Form rad" required>
+                    <label for="email" class="Form__text"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required class="Form rad" required>
 
-                <div for="psw" class="Form__text password__label"><b>Password</b>
-                    <input type="password" placeholder="Enter Password" name="psw" class="rad passo" required>
-                    <div class="password__btn"><img src="../object/IMG/1.svg"></div>
-                </div>
-
-                <label for="psw-repeat" class="Form__text"> <b>Confirm your password</b></label>
-                <input type="password" placeholder="Repeat Password" name="psw-repeat" class="rad" required>
-
-                <label for="psw-repeat" class="Form__text"><b>Referal code (Optional)</b></label>
-                <input type="text" placeholder="Referal code" name="psw-repeat" class="rad">
-                <hr>
-                <div class="checkbox">
-                    <input type="checkbox" class="checkbox" id="hrom" id="politics" onclick="check();" value=""
-                        autocomplete="off" required />
-                    <label for="hrom" class="label"><span class="agree">I agree to receive email updates from
-                            Apollox<br></span></label>
-                </div>
-
-                <div class="checkbox kol1">
-                    <input type="checkbox" class="checkbox" id="hrom2" onclick="check();" value="" autocomplete="off" />
-                    <label for="hrom2" class="label"><span class="agree" for="hrom">I agree to Apollox’s</span><a
-                            href="AGREEMENT.html" class="Ter">Terms of service</a><span class="agree"> and</span><a
-                            href="POLICY.html" class="Ter"> Privacy Policy</a></label>
-                </div>
-                <button type="submit" class="registerbtn">Sign Up</button>
-            </div>
-            <div class="container_signin">
-                <div class="container_signin_item ab1">
-                    <p><a href="/page/register.html" class="sign_a">Log in</a></p>
-                </div>
-            </div>
-        </form>
-    </div>
-
-    </div>
-    <footer>
-        <div class="footer">
-            <div class="footer_upper">
-                <div class="footer_section ergreg">
-                    <h4>OUR COMPANY</h4>
-                    <ul>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">service</a></li>
-                        <li><a href="#">contacts</a></li>
-                    </ul>
-                </div>
-                <div class="footer_section ergreg">
-                    <h4>help & support</h4>
-                    <ul>
-                        <li><a href="#">terms of services</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                    </ul>
-                </div>
-                <div class="footer_section ergreg">
-                    <h4>Contact us</h4>
-                    <ul>
-                        <li><a href="#">contact@apollox.org</a></li>
-                        <li><a href="#">new york, usa</a></li>
-                    </ul>
-                </div>
-                <div class="footer_section">
-                    <h4>USD198.76B</h4>
-                    <ul>
-                        <li><a href="#">market cap</a></li>
-                    </ul>
-                    <h4 class="second_h">369k</h4>
-                    <ul>
-                        <li><a href="#">Active accounts</a></li>
-                    </ul>
-                </div>
-                <div class="footer_section">
-                    <h4>243k</h4>
-                    <ul>
-                        <li><a href="#">DAily transactions</a></li>
-                    </ul>
-                    <h4 class="second_h">127</h4>
-                    <ul>
-                        <li><a href="#">Supported countries</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer_upper_adap">
-                <div class="footer_section_1">
-                    <div class="dropdown1 douwnpraun">
-                        <div onclick="myFunction1()" class="dropbtn1" id="anar1">
-                            <div class="d_text1">OUR COMPANY
-                            </div>
-                            <div class="dropdown1_inner">
-                                <div><img src="../object/IMG/footer/plus.svg" class="ndropdown-contentazar_don1" id="Anna_ipolitovna"></div>
-                                <div><img src="../object/IMG/footer/minus.svg" class="ndropdown-contentazar_don12" id="Anna_ipolitovna2">
-                                </div>
-                            </div>
-                        </div>
-                        <div id="myDropdown1" class="dropdown-content1 myDropdown1df">
-                            <div class="new__text__drop">home</div>
-                            <div class="new__text__drop">about</div>
-                            <div class="new__text__drop">services</div>
-                            <div class="new__text__drop">contacts</div>
-                        </div>
+                    <div for="psw" class="Form__text password__label"><b>Password</b>
+                        <input type="password" placeholder="Enter Password" name="psw" class="rad passo" required>
+                        <div class="password__btn"><img src="../object/IMG/1.svg"></div>
                     </div>
 
+                    <label for="psw-repeat" class="Form__text"> <b>Confirm your password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" class="rad" required>
 
-
-                    <div class="dropdown2 douwnpraun">
-                        <div onclick="myFunction2()" class="dropbtn2" id="anar2">
-                            <div class=d_text2>help & support</div>
-                            <div class="dropdown1_inner">
-                                <div><img src="../object/IMG/footer/plus.svg" class="ndropdown-contentazar_don21" id="Anna_ipolitovna2z"></div>
-                                <div><img src="../object/IMG/footer/minus.svg" class="ndropdown-contentazar_don22" id="Anna_ipolitovna22">
-                                </div>
-                            </div>
-                        </div>
-                        <div id="myDropdown2" class="dropdown-content2 myDropdown1df">
-                            <div class="new__text__drop">terms of services</div>
-                            <div class="new__text__drop">privacy policy</div>
-                        </div>
+                    <label for="psw-repeat" class="Form__text"><b>Referal code (Optional)</b></label>
+                    <input type="text" placeholder="Referal code" name="psw-repeat" class="rad">
+                    <hr>
+                    <div class="checkbox">
+                        <input type="checkbox" class="checkbox" id="hrom" id="politics" onclick="check();" value=""
+                            autocomplete="off" required />
+                        <label for="hrom" class="label"><span class="agree">I agree to receive email updates from
+                                Apollox<br></span></label>
                     </div>
 
-
-                    <div class="dropdown3 douwnpraun">
-                        <div onclick="myFunction3()" class="dropbtn3" id="anar3">
-                            <div class=d_text3>Contact us
-                            </div>
-                            <div class="dropdown1_inner">
-                                <div><img src="../object/IMG/footer/plus.svg" class="ndropdown-contentazar_don3" id="Anna_ipolitovna31"></div>
-                                <div><img src="../object/IMG/footer/minus.svg" class="ndropdown-contentazar_don32" id="Anna_ipolitovna32"></div>
-                            </div>
-                        </div>
-                        <div id="myDropdown3" class="dropdown-content3 myDropdown1df">
-                            <div class="new__text__drop">contact@apollox.org</div>
-                            <div class="new__text__drop">new york, usa</div>
-                        </div>
+                    <div class="checkbox kol1">
+                        <input type="checkbox" class="checkbox" id="hrom2" onclick="check();" value=""
+                            autocomplete="off" />
+                        <label for="hrom2" class="label"><span><span class="agree" for="hrom">I agree to
+                                    Apollox’s</span><a href="AGREEMENT.html" class="Ter">Terms of service</a><span
+                                    class="agree"> and</span></span><span><a href="POLICY.html" class="Ter"> Privacy
+                                    Policy</a></span></label>
                     </div>
+                    <button type="submit" class="registerbtn">Sign Up</button>
+                </div>
+                <div class="container_signin">
+                    <div class="container_signin_item ab1">
+                        <p><a href="/page/register.html" class="sign_a">Log in</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
 
-                    <div class="footer_section_inner">
+
+        <footer>
+            <div class="footer" id="wrapper_okno">
+                <div class="footer_upper">
+                    <div class="footer_section ergreg">
+                        <h4>OUR COMPANY</h4>
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">service</a></li>
+                            <li><a href="#">contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_section ergreg">
+                        <h4>help & support</h4>
+                        <ul>
+                            <li><a href="#">terms of services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_section ergreg">
+                        <h4>Contact us</h4>
+                        <ul>
+                            <li><a href="#">contact@apollox.org</a></li>
+                            <li><a href="#">new york, usa</a></li>
+                        </ul>
+                    </div>
                     <div class="footer_section">
                         <h4>USD198.76B</h4>
                         <ul>
@@ -200,15 +128,155 @@
                             <li><a href="#">Supported countries</a></li>
                         </ul>
                     </div>
-                    </div>
+                </div>
+                <div class="footer_upper_adap">
+                    <div class="footer_section_1">
+                        <div class="dropdown1 douwnpraun">
+                            <div onclick="myFunction1()" class="dropbtn1" id="anar1">
+                                <div class="d_text1">OUR COMPANY
+                                </div>
+                                <div class="dropdown1_inner">
+                                    <div><img src="../object/IMG/footer/plus.svg" class="ndropdown-contentazar_don1"
+                                            id="Anna_ipolitovna"></div>
+                                    <div><img src="../object/IMG/footer/minus.svg" class="ndropdown-contentazar_don12"
+                                            id="Anna_ipolitovna2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="myDropdown1" class="dropdown-content1 myDropdown1df">
+                                <div class="new__text__drop">home</div>
+                                <div class="new__text__drop">about</div>
+                                <div class="new__text__drop">services</div>
+                                <div class="new__text__drop">contacts</div>
+                            </div>
+                        </div>
 
+
+
+                        <div class="dropdown2 douwnpraun">
+                            <div onclick="myFunction2()" class="dropbtn2" id="anar2">
+                                <div class=d_text2>help & support</div>
+                                <div class="dropdown1_inner">
+                                    <div><img src="../object/IMG/footer/plus.svg" class="ndropdown-contentazar_don21"
+                                            id="Anna_ipolitovna2z"></div>
+                                    <div><img src="../object/IMG/footer/minus.svg" class="ndropdown-contentazar_don22"
+                                            id="Anna_ipolitovna22">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="myDropdown2" class="dropdown-content2 myDropdown1df">
+                                <div class="new__text__drop">terms of services</div>
+                                <div class="new__text__drop">privacy policy</div>
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown3 douwnpraun">
+                            <div onclick="myFunction3()" class="dropbtn3" id="anar3">
+                                <div class=d_text3>Contact us
+                                </div>
+                                <div class="dropdown1_inner">
+                                    <div><img src="../object/IMG/footer/plus.svg" class="ndropdown-contentazar_don3"
+                                            id="Anna_ipolitovna31"></div>
+                                    <div><img src="../object/IMG/footer/minus.svg" class="ndropdown-contentazar_don32"
+                                            id="Anna_ipolitovna32"></div>
+                                </div>
+                            </div>
+                            <div id="myDropdown3" class="dropdown-content3 myDropdown1df">
+                                <div class="new__text__drop">contact@apollox.org</div>
+                                <div class="new__text__drop">new york, usa</div>
+                            </div>
+                        </div>
+
+                        <div class="footer_section_inner">
+                            <div class="footer_section">
+                                <h4>USD198.76B</h4>
+                                <ul>
+                                    <li><a href="#">market cap</a></li>
+                                </ul>
+                                <h4 class="second_h">369k</h4>
+                                <ul>
+                                    <li><a href="#">Active accounts</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer_section">
+                                <h4>243k</h4>
+                                <ul>
+                                    <li><a href="#">DAily transactions</a></li>
+                                </ul>
+                                <h4 class="second_h">127</h4>
+                                <ul>
+                                    <li><a href="#">Supported countries</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer_lower">
+                    <p class="footer_subtitle">© 2020 Apollox. All rights reserved</p>
                 </div>
             </div>
-            <div class="footer_lower">
-                <p class="footer_subtitle">© 2020 Apollox. All rights reserved</p>
+    </div>
+</footer>
+    <div class="wrapper2" id="wrapper2_zak">
+        <div class="krestik_up">
+            <div class="burger_adap_wrapper" id="krestik_adap" onclick="krestik()"><img
+                    src="../object/IMG/burger/krestik.svg" alt=""></div>
+        </div>
+        <div class="burger_section_2">
+            <div class="burger_section_2_log">Log in</div>
+            <div class="burger_section_2_sig">Sign up</div>
+        </div>
+        <div class="burger_section_3">
+            <div class="burger_section_3_text burger_section_3_text1">Exchange</div>
+            <div class="burger_section_3_text burger_section_3_text2">NFT</div>
+        </div>
+
+
+
+        <div class="night_mode_btm">
+            <img class="night_mode_btm_img im1" src="/object/IMG/night_mode.svg" alt="">
+            <img class="night_mode_btm_img im2" src="/object/dark img/crescent moon.svg" alt="">
+            <span class="night_mode_text">
+                Night mode
+            </span>
+            <div><input type="checkbox" class="switch"></div>
+        </div>
+
+
+
+        <div class="vipod_spisok_adap">
+            <div class="vipod_spisok_adap_item " onclick="spisok()" id="kykold">
+                <div class="vipod_spisok_adap_item_iner" >
+                    <div class="vipod_spisok_adap_item_img"><img src="../object/IMG/burger/1USD.svg" alt=""></div>
+                    <div class="vipod_spisok_adap_item_text">USD</div>
+                </div>
+                <div class="vipod_spisok_adap_item_img"><img src="../object/IMG/burger/strelka.svg" alt=""></div>
+            </div>
+            <div class="vipod_spisok_adap_item xaxol" id="xoxol" onclick="spisok2()">
+                <div class="vipod_spisok_adap_item_iner">
+                    <div class="vipod_spisok_adap_item_img"><img src="../object/IMG/burger/2INR.svg" alt=""></div>
+                    <div class="vipod_spisok_adap_item_text">INR</div>
+                </div>
+                <div class="vipod_spisok_adap_item_img"><img src="../object/IMG/burger/strelka.svg" alt=""></div>
+            </div>
+            <div class="vipod_spisok_adap_item xaxol" id="xoxol2" onclick="spisok3()">
+                <div class="vipod_spisok_adap_item_iner">
+                    <div class="vipod_spisok_adap_item_img"><img src="../object/IMG/burger/3BTC.svg" alt=""></div>
+                    <div class="vipod_spisok_adap_item_text">BTC</div>
+                </div>
+                <div class="vipod_spisok_adap_item_img"><img src="../object/IMG/burger/strelka.svg" alt=""></div>
+            </div>
+            <div class="vipod_spisok_adap_item xaxol" id="xoxol3" onclick="spisok4()">
+                <div class="vipod_spisok_adap_item_iner">
+                    <div class="vipod_spisok_adap_item_img"><img src="../object/IMG/burger/4ETH.svg" alt=""></div>
+                    <div class="vipod_spisok_adap_item_text">ETH</div>
+                </div>
+                <div class="vipod_spisok_adap_item_img"><img src="../object/IMG/burger/strelka.svg" alt=""></div>
             </div>
         </div>
-    </footer>
+    </div>
     <script src="../js/dark_register.js"></script>
     <script src="../js/register.js"></script>
     <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
