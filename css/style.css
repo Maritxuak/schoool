@@ -831,10 +831,20 @@ input.switch:checked[type="checkbox"]::before{
     margin-left: 30px;
 }
 .navigation_top{
+    cursor: pointer;
     margin-bottom: 40px;
+    transition: all 0.5s;
+}
+.navigation_top:hover{
+    transform: translate(0, -10px)scale(1.2);
 }
 .navigation_down{
+    cursor: pointer;
     margin-top: 40px;
+    transition: all 0.5s;
+}
+.navigation_down:hover{
+    transform: translate(0, 10px)scale(1.2);
 }
 .number_fact_number{
     height: 50%;
@@ -904,29 +914,31 @@ input.switch:checked[type="checkbox"]::before{
     color: #191023;
     margin-bottom: 15px;
 }
-
-.slider_fact_first{
+.slider_fact_first.turn,.slider_fact_second.turn,.slider_fact_third.turn,.slider_fact_fourth.turn,.slider_fact_fifth.turn{
     display: flex;
+}
+.slider_fact_first{
+    display: none;
     flex-direction: column;
     z-index: 10;
 }
 .slider_fact_second{
-    display: flex;
+    display: none;
     flex-direction: column;
     z-index: 9;
 }
 .slider_fact_third{
-    display: flex;
+    display: none;
     flex-direction: column;
     z-index: 8;
 }
 .slider_fact_fourth{
-    display: flex;
+    display: none;
     flex-direction: column;
     z-index: 7;
 }
 .slider_fact_fifth{
-    display: flex;
+    display: none;
     flex-direction: column;
     z-index: 6;
 }
