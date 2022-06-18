@@ -13,10 +13,11 @@ slide_first.onclick = function(){
     slide_second.classList.remove('active')
     slide_third.classList.remove('active')
     slide_fourth.classList.remove('active')
-    s1.style.transform = 'translateY(0%)';
-    s2.style.transform = 'translateY(0%)';
-    s3.style.transform = 'translateY(0%)';
-    s4.style.transform = 'translateY(0%)';
+    s1.classList.add('fir')
+    s2.classList.add('fir')
+    s3.classList.add('fir')
+    s4.classList.add('fir')
+    console.log('Z')
 }
 slide_second.onclick = function(){
     slide_second.classList.add('active')
