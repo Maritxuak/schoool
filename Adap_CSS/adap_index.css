@@ -60,9 +60,6 @@
     .interface_picture_only{
         display: none;
     }
-<<<<<<< Updated upstream
-}
-=======
     .interface_picture_only2{
         display: block !important;
         width: 359px;
@@ -70,4 +67,3 @@
         margin-top: 950px;
     }
 }
->>>>>>> Stashed changes

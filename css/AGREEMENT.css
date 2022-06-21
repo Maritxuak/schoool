@@ -105,3 +105,138 @@ body{
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+/*=============BURGER==============*/
+.zaktito{
+    display: none;
+}
+.krestik_up{
+    display: flex;
+    justify-content: right;
+    padding: 15px 15px 0 0;
+}
+.burger_section_2_log{
+    color: #191023;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+}
+.burger_section_2_sig{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    background: #8442D6;
+    border-radius: 4px;
+    padding:12px 130px;
+    margin: 30px 15px 0 15px;
+}
+.burger_section_2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.burger_section_3_text{
+    color: #191023;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 19px;
+}
+.burger_section_3{
+    padding-top:30px;
+    border-bottom: 1px solid #33214A;
+    margin: 0 15px;
+}
+.burger_section_3_text{
+    padding: 15px 0 15px 0;
+}
+.wrapper2{
+    display: none;
+}
+.logo_koillok{
+    display: none;
+}
+.wrapper2.close{
+    display: block !important;
+}
+.night_mode_btmf,.minimalistic{
+    display: flex;
+    align-items: center;
+}
+.night_mode_btm{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.minimalistic_img,.night_mode_btm_img{
+    margin-right: 12px;
+}
+.minimalistic_text,.night_mode_text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1F1728;
+}
+.night_mode_text{
+    margin-right: 35px;
+}
+input.switch[type="checkbox"]{
+    position: relative;
+    width: 30px;
+    height: 18px;
+    appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 60px;
+    transform: 0.5s;
+}
+input.switch:checked[type="checkbox"]{
+    background-color: #8442D6;
+}
+input.switch[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: #8442D6;
+    transition: 0.5s;
+}
+input.switch:checked[type="checkbox"]::before{
+    left: 15px;
+    background: #fff;
+}
+.vipod_spisok_adap_item{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+.vipod_spisok_adap_item_iner{
+    display: flex;
+}
+.xaxol{
+    display: none;
+}
+.xaxol2{
+    display: none;
+}

@@ -1,0 +1,29 @@
+@media only screen and (max-width:380px){
+    .textick{
+        background-color: #EFEFEF !important;
+        position: relative;
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2)!important;
+        -moz-box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2)!important;
+        box-shadow: 0px 0px 0px 0px rgba(34, 60, 80, 0.2) !important;
+        border-radius: 4px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 185%;
+        color: #1C1C1C;
+        padding: 1px 25px 210px 25px !important;
+    }
+    .PRIVACY{
+        margin-left: 25px !important;
+    }
+    .NFT,.moon2{
+        display: none !important;
+    }
+    .container{
+        padding: 0 11px !important;
+    }
+    .logo_koillok{
+        display: block !important;
+    }
+}
