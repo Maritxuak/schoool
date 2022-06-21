@@ -947,6 +947,18 @@ input.switch:checked[type="checkbox"]::before{
     flex-direction: column;
     z-index: 6;
 }
+.fir{
+    transform: translateY(0%);
+}
+.sec{
+    transform: translateY(-105%);
+}
+.third{
+    transform: translateY(-213%);
+}
+.fourth{
+    transform: translateY(-320%);
+}
 /*==================Vallute=========================*/
 .BTC{
     background: url("../object/IMG/USD 199.png");
