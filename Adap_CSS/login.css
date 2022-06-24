@@ -1,0 +1,30 @@
+@media only screen and (max-width:535px){
+    .moon2{
+        display: none;
+    }
+    .NFT{
+        display: none;
+    }
+    .logo_koillok{
+        display: block;
+    }
+    .kol1,.checkbox {
+        margin-left: 40px !important;
+    }
+    .label{
+        display: flex;
+        flex-direction: column;
+    }
+    .container_signin{
+        padding-bottom: 42px !important;
+    }
+}
+@media only screen and (max-width:750px){
+    .footer_upper{
+        display: none;
+    }
+    .footer_upper_adap{
+        display: block;
+    }
+    
+}
