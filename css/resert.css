@@ -242,13 +242,15 @@ input[type="checkbox"]:checked + .label::before{
     margin-top:30px;
     margin-bottom: 20px;
 }
+.wrapper2.close{
+    display: block !important;
+}
 /*================== Footer ===================*/
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 200px;
     background-color: #FFFFFF;
 }
 .footer{

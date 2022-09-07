@@ -1,0 +1,528 @@
+@media only screen and (max-width:375px){
+}
+@media only screen and (max-width:750px){
+    .footer_upper{
+        display: none !important;
+    }
+    .footer_upper_adap{
+        display: block !important;
+    }
+}
+@media only screen and (max-width:535px){
+    .moon2{
+        display: none;
+    }
+    .NFT{
+        display: none !important;
+    }
+    .logo_koillok{
+        display: block !important;
+    }
+    .container{
+        padding-right: 15px !important;
+    }
+    .kol1,.checkbox {
+        margin-left: 40px !important;
+    }
+    .label{
+        display: flex;
+        flex-direction: column;
+    }
+    .h1, .text, .text2 {
+        display: block !important;
+        padding-left: 15px;
+        align-items: center;
+    }
+    .footer{
+        padding: 50px 15px 0 15px !important;
+    }
+}
+.wrapper2.close{
+    display: block;
+}
+
+
+/*=============BURGER==============*/
+.zaktito{
+    display: none;
+}
+.krestik_up{
+    display: flex;
+    justify-content: right;
+    padding: 15px 15px 0 0;
+}
+.burger_section_2_log{
+    color: #191023;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+}
+.burger_section_2_sig{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    background: #8442D6;
+    border-radius: 4px;
+    padding:12px 130px;
+    margin: 30px 15px 0 15px;
+}
+.burger_section_2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.burger_section_3_text{
+    color: #191023;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 19px;
+}
+.burger_section_3{
+    padding-top:30px;
+    border-bottom: 1px solid #33214A;
+    margin: 0 15px;
+}
+.burger_section_3_text{
+    padding: 15px 0 15px 0;
+}
+.wrapper2{
+    display: none;
+}
+.logo_koillok{
+    display: none;
+}
+.wrapper2.close{
+    display: block;
+}
+.night_mode_btmf,.minimalistic{
+    display: flex;
+    align-items: center;
+}
+.night_mode_btm{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.minimalistic_img,.night_mode_btm_img{
+    margin-right: 12px;
+}
+.minimalistic_text,.night_mode_text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1F1728;
+}
+.night_mode_text{
+    margin-right: 35px;
+}
+input.switch[type="checkbox"]{
+    position: relative;
+    width: 30px;
+    height: 18px;
+    appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 60px;
+    transform: 0.5s;
+}
+input.switch:checked[type="checkbox"]{
+    background-color: #8442D6;
+}
+input.switch[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: #8442D6;
+    transition: 0.5s;
+}
+input.switch:checked[type="checkbox"]::before{
+    left: 15px;
+    background: #fff;
+}
+.vipod_spisok_adap_item{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+.vipod_spisok_adap_item_iner{
+    display: flex;
+}
+.xaxol{
+    display: none;
+}
+.xaxol2{
+    display: none;
+}
+
+
+
+
+
+
+
+
+.footer_upper_adap{
+    display: none;
+}
+
+
+
+
+/* Кнопка выпадающего списка */
+.dropbtn1 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px auto;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown1 {
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content1 {
+    display: none;
+    z-index: 1;
+}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {
+    display: block;
+}
+.d_dotext2_a1{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+.d_text1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8442D6;
+}
+.myDropdown1df{
+    text-align: left;
+
+}
+.d_dotext1 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: left;
+    padding-left: 130px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+.d_dotext21 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background: #00B74A;
+    max-width: 310px;
+    margin-left:70px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    border-radius: 16px;
+}
+.texxt21{
+    margin-top: 35px;
+}
+.d_dotext1:after {
+    content:'';
+    background-color:#ffffff;
+    height:10px;
+    width:10px;
+    left:40%;
+    top:14px;
+    left:100px;
+    z-index: 999;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* Кнопка выпадающего списка */
+.dropbtn2 {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px auto;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown2 {
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content2 {
+    display: none;
+    z-index: 1;
+}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {
+    display: block;
+}
+.d_dotext2_a2{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+.d_text2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8442D6;
+}
+
+.d_dotext2 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: left;
+    padding-left: 130px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+.d_dotext22 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    max-width: 310px;
+    margin-left:70px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    border-radius: 16px;
+}
+.texxt22{
+    margin-top: 35px;
+}
+.d_dotext2:after {
+    content:'';
+    background-color:#ffffff;
+    height:10px;
+    position: absolute;
+    width:10px;
+    left:40%;
+    top:14px;
+    left:100px;
+    z-index: 999;
+    border-radius: 5px;
+}
+
+.footer_section_inner{
+    display: flex;
+    justify-content: space-between;
+}
+#Anna_ipolitovna2{
+    display: none;
+}
+.Love{
+    display: none;
+}
+#Anna_ipolitovna2.Love2{
+    display: block;
+}
+#Anna_ipolitovna22{
+    display: none;
+}
+#Anna_ipolitovna22.Love22{
+    display: block;
+}
+.Love21{
+    display: none; 
+}
+#Anna_ipolitovna32{
+    display: none;
+}
+#Anna_ipolitovna32.Love32{
+    display: block;
+}
+.Love31{
+    display: none;
+}
+/* Кнопка выпадающего списка */
+.dropbtn3 {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px auto;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown3 {
+    max-width: 1200px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.Love{
+    display: none;
+}
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content3 {
+    display: none;
+    z-index: 1;
+}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {
+    display: block;
+}
+.d_dotext2_a3{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+.d_text3 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8442D6;
+}
+
+.d_dotext3 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: left;
+    padding-left: 130px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+.d_dotext23 {
+    font-style: normal;
+    font-weight: 00;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background: #00B74A;
+    max-width: 310px;
+    margin-left:70px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    border-radius: 16px;
+}
+.texxt23{
+    margin-top: 35px;
+}
+.d_dotext3:after {
+    content:'';
+    background-color:#ffffff;
+    height:10px;
+    position: absolute;
+    width:10px;
+    left:40%;
+    top:14px;
+    left:100px;
+    z-index: 999;
+    border-radius: 5px;
+}
+.dropdown1_inner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.new__text__drop{
+    color: #AAAAAA;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0;
+    text-transform: uppercase;
+}

@@ -18,13 +18,21 @@
     .container_signin{
         padding-bottom: 42px !important;
     }
+    .container{
+        padding: 20px 15px !important;
+    }
 }
 @media only screen and (max-width:750px){
     .footer_upper{
-        display: none;
+        display: none !important;
     }
     .footer_upper_adap{
-        display: block;
+        display: block !important;
     }
-    
+    .footer{
+        padding-top:0 !important;
+    }
+    .containerz{
+        padding-bottom: 200px !important;
+    }
 }
